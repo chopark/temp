@@ -1,0 +1,4 @@
+2020-02-11 11:04:42,703 INFO [NiFi Web Server-23] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://172.31.30.86:8080/nifi-api/connections/1cebae29-016f-1000-96fd-971ebcf4d231 (source ip: 172.31.30.86)
+2020-02-11 11:04:57,946 INFO [NiFi Web Server-20] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://172.31.30.86:8080/nifi-api/site-to-site (source ip: 172.31.21.160)
+2020-02-11 11:05:14,085 INFO [NiFi Web Server-22] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://172.31.30.86:8080/nifi-api/connections/1cebae29-016f-1000-96fd-971ebcf4d231 (source ip: 172.31.30.86)
+2020-02-11 11:05:14,102 INFO [NiFi Web Server-23] org.apache.nifi.web.filter.RequestLogger Attempting request for (anonymous) GET http://172.31.30.86:8080/nifi-api/connections/1cebae29-016f-1000-96fd-971ebcf4d231 (source ip: 172.31.30.86)
