@@ -1,0 +1,196 @@
+MiNiFi Config Version: 3
+Flow Controller:
+  name: mini-distr
+  comment: ''
+Core Properties:
+  flow controller graceful shutdown period: 10 sec
+  flow service write delay interval: 500 ms
+  administrative yield duration: 30 sec
+  bored yield duration: 10 millis
+  max concurrent threads: 1
+  variable registry properties: ''
+FlowFile Repository:
+  partitions: 256
+  checkpoint interval: 2 mins
+  always sync: false
+  Swap:
+    threshold: 20000
+    in period: 5 sec
+    in threads: 1
+    out period: 5 sec
+    out threads: 4
+Content Repository:
+  content claim max appendable size: 10 MB
+  content claim max flow files: 100
+  always sync: false
+Provenance Repository:
+  provenance rollover time: 1 min
+  implementation: org.apache.nifi.provenance.MiNiFiPersistentProvenanceRepository
+Component Status Repository:
+  buffer size: 1440
+  snapshot frequency: 1 min
+Security Properties:
+  keystore: ''
+  keystore type: ''
+  keystore password: ''
+  key password: ''
+  truststore: ''
+  truststore type: ''
+  truststore password: ''
+  ssl protocol: ''
+  Sensitive Props:
+    key:
+    algorithm: PBEWITHMD5AND256BITAES-CBC-OPENSSL
+    provider: BC
+Processors:
+- id: a817ad5e-3b57-3b23-0000-000000000000
+  name: GetFile
+  class: org.apache.nifi.processors.standard.GetFile
+  max concurrent tasks: 1
+  scheduling strategy: TIMER_DRIVEN
+  scheduling period: 1 sec
+  penalization period: 30 sec
+  yield period: 0 sec
+  run duration nanos: 0
+  auto-terminated relationships list: []
+  Properties:
+    Batch Size: '1'
+    File Filter: '[^\.].*'
+    Ignore Hidden Files: 'true'
+    Input Directory: /home/ubuntu/minifi/operator-profile-input-data
+    Keep Source File: 'true'
+    Maximum File Age:
+    Maximum File Size:
+    Minimum File Age: 0 sec
+    Minimum File Size: 0 B
+    Path Filter:
+    Polling Interval: 0 sec
+    Recurse Subdirectories: 'false'
+- id: 1bfe2b5d-4624-30ca-0000-000000000000
+  name: MyProcessor
+  class: com.jarvis.processors.edge.MyProcessor
+  max concurrent tasks: 1
+  scheduling strategy: TIMER_DRIVEN
+  scheduling period: 0 sec
+  penalization period: 30 sec
+  yield period: 0 sec
+  run duration nanos: 0
+  auto-terminated relationships list: []
+  Properties: {}
+- id: 36edb56c-214d-3ea4-0000-000000000000
+  name: UpdateAttribute
+  class: org.apache.nifi.processors.attributes.UpdateAttribute
+  max concurrent tasks: 1
+  scheduling strategy: TIMER_DRIVEN
+  scheduling period: 0 sec
+  penalization period: 30 sec
+  yield period: 0 sec
+  run duration nanos: 0
+  auto-terminated relationships list: []
+  Properties:
+    Delete Attributes Expression:
+    Stateful Variables Initial Value:
+    Store State: Do not store state
+    m_source_flowfile_start: ${lineageStartDate}
+    m_source_now: ${now():toNumber()}
+    origFileSize: ${fileSize}
+    outfile.schema.name: out-flowfile
+    schema.name: hello-world
+- id: a102dfe7-9923-3995-0000-000000000000
+  name: UpdateAttribute
+  class: org.apache.nifi.processors.attributes.UpdateAttribute
+  max concurrent tasks: 1
+  scheduling strategy: TIMER_DRIVEN
+  scheduling period: 0 sec
+  penalization period: 30 sec
+  yield period: 0 sec
+  run duration nanos: 0
+  auto-terminated relationships list: []
+  Properties:
+    Delete Attributes Expression:
+    Stateful Variables Initial Value:
+    Store State: Do not store state
+    m_query_filesize: ${fileSize}
+    m_query_flowfile_start: ${lineageStartDate}
+    m_query_now: ${now():toNumber()}
+  annotation data: |-
+    <criteria>
+        <flowFilePolicy>USE_ORIGINAL</flowFilePolicy>
+    </criteria>
+Controller Services: []
+Process Groups: []
+Input Ports: []
+Output Ports: []
+Funnels: []
+Connections:
+- id: 88facb8b-02ba-329e-0000-000000000000
+  name: GetFile/success/UpdateAttribute
+  source id: a817ad5e-3b57-3b23-0000-000000000000
+  source relationship names:
+  - success
+  destination id: 36edb56c-214d-3ea4-0000-000000000000
+  max work queue size: 10000000
+  max work queue data size: 10 GB
+  flowfile expiration: 0 sec
+  queue prioritizer class: ''
+- id: 4916e20b-f940-3670-0000-000000000000
+  name: MyProcessor/MY_RELATIONSHIP/UpdateAttribute
+  source id: 1bfe2b5d-4624-30ca-0000-000000000000
+  source relationship names:
+  - MY_RELATIONSHIP
+  destination id: a102dfe7-9923-3995-0000-000000000000
+  max work queue size: 100000
+  max work queue data size: 5 GB
+  flowfile expiration: 0 sec
+  queue prioritizer class: ''
+- id: a1a7df6c-e908-3862-0000-000000000000
+  name: MyProcessor/MY_RELATIONSHIP_1/bc17f030-016c-1000-2eba-262e61a9059b
+  source id: 1bfe2b5d-4624-30ca-0000-000000000000
+  source relationship names:
+  - MY_RELATIONSHIP_1
+  destination id: bc17f030-016c-1000-2eba-262e61a9059b
+  max work queue size: 100000
+  max work queue data size: 5 GB
+  flowfile expiration: 0 sec
+  queue prioritizer class: ''
+- id: 0b3475be-50a8-3c1f-0000-000000000000
+  name: UpdateAttribute/success/MyProcessor
+  source id: 36edb56c-214d-3ea4-0000-000000000000
+  source relationship names:
+  - success
+  destination id: 1bfe2b5d-4624-30ca-0000-000000000000
+  max work queue size: 100000
+  max work queue data size: 5 GB
+  flowfile expiration: 0 sec
+  queue prioritizer class: ''
+- id: f8e14613-d7b0-33a4-0000-000000000000
+  name: UpdateAttribute/success/bc17f030-016c-1000-2eba-262e61a9059b
+  source id: a102dfe7-9923-3995-0000-000000000000
+  source relationship names:
+  - success
+  destination id: bc17f030-016c-1000-2eba-262e61a9059b
+  max work queue size: 10000000
+  max work queue data size: 10 GB
+  flowfile expiration: 0 sec
+  queue prioritizer class: ''
+Remote Process Groups:
+- id: 484f76dd-ea94-3980-0000-000000000000
+  name: ''
+  url:  http://172.31.19.6:8080/nifi
+  comment: ''
+  timeout: 30 sec
+  yield period: 0 sec
+  transport protocol: RAW
+  proxy host: ''
+  proxy port: ''
+  proxy user: ''
+  proxy password: ''
+  local network interface: ''
+  Input Ports:
+  - id: bc17f030-016c-1000-2eba-262e61a9059b
+    name: From MiNiFi
+    comment: ''
+    max concurrent tasks: 1
+    use compression: false
+  Output Ports: []
+NiFi Properties Overrides: {}
