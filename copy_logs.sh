@@ -10,5 +10,5 @@ if [ -d $HOME/minifi ];then
 fi
 
 git add .
-git commit -m "Update"
+git commit -m "$1"
 git push
