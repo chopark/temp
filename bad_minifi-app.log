@@ -1,0 +1,1262 @@
+2020-10-07 13:08:46,744 INFO [main] org.apache.nifi.minifi.MiNiFi Launching MiNiFi...
+2020-10-07 13:08:46,898 INFO [main] org.apache.nifi.BootstrapListener Started Bootstrap Listener, Listening for incoming requests on port 46621
+2020-10-07 13:08:46,914 INFO [main] org.apache.nifi.BootstrapListener Successfully initiated communication with Bootstrap
+2020-10-07 13:08:48,247 INFO [main] org.apache.nifi.nar.NarUnpacker Contents of nar /home/ubuntu/minifi/minifi-0.5.0/./lib/nifi-edge-nar-1.0-SNAPSHOT.nar have changed. Reloading.
+2020-10-07 13:08:50,208 INFO [main] org.apache.nifi.nar.NarUnpacker Contents of nar /home/ubuntu/minifi/minifi-0.5.0/./lib/nifi-cloud-nar-1.0-SNAPSHOT.nar have changed. Reloading.
+2020-10-07 13:08:55,044 INFO [main] org.apache.nifi.nar.NarClassLoaders Loaded NAR file: /home/ubuntu/minifi/minifi-0.5.0/./work/nar/framework/minifi-framework-nar-0.5.0.nar-unpacked as class loader org.apache.nifi.nar.NarClassLoader[./work/nar/framework/minifi-framework-nar-0.5.0.nar-unpacked]
+2020-10-07 13:08:55,051 INFO [main] org.apache.nifi.nar.NarClassLoaders Loaded NAR file: /home/ubuntu/minifi/minifi-0.5.0/./work/nar/extensions/minifi-update-attribute-nar-0.5.0.nar-unpacked as class loader org.apache.nifi.nar.NarClassLoader[./work/nar/extensions/minifi-update-attribute-nar-0.5.0.nar-unpacked]
+2020-10-07 13:08:55,053 INFO [main] org.apache.nifi.nar.NarClassLoaders Loaded NAR file: /home/ubuntu/minifi/minifi-0.5.0/./work/nar/extensions/nifi-jetty-bundle-1.7.0.nar-unpacked as class loader org.apache.nifi.nar.NarClassLoader[./work/nar/extensions/nifi-jetty-bundle-1.7.0.nar-unpacked]
+2020-10-07 13:08:55,055 INFO [main] org.apache.nifi.nar.NarClassLoaders Loaded NAR file: /home/ubuntu/minifi/minifi-0.5.0/./work/nar/extensions/nifi-standard-services-api-nar-1.7.0.nar-unpacked as class loader org.apache.nifi.nar.NarClassLoader[./work/nar/extensions/nifi-standard-services-api-nar-1.7.0.nar-unpacked]
+2020-10-07 13:08:55,060 INFO [main] org.apache.nifi.nar.NarClassLoaders Loaded NAR file: /home/ubuntu/minifi/minifi-0.5.0/./work/nar/extensions/minifi-provenance-reporting-nar-0.5.0.nar-unpacked as class loader org.apache.nifi.nar.NarClassLoader[./work/nar/extensions/minifi-provenance-reporting-nar-0.5.0.nar-unpacked]
+2020-10-07 13:08:55,062 INFO [main] org.apache.nifi.nar.NarClassLoaders Loaded NAR file: /home/ubuntu/minifi/minifi-0.5.0/./work/nar/extensions/minifi-provenance-repository-nar-0.5.0.nar-unpacked as class loader org.apache.nifi.nar.NarClassLoader[./work/nar/extensions/minifi-provenance-repository-nar-0.5.0.nar-unpacked]
+2020-10-07 13:08:55,063 INFO [main] org.apache.nifi.nar.NarClassLoaders Loaded NAR file: /home/ubuntu/minifi/minifi-0.5.0/./work/nar/extensions/minifi-ssl-context-service-nar-0.5.0.nar-unpacked as class loader org.apache.nifi.nar.NarClassLoader[./work/nar/extensions/minifi-ssl-context-service-nar-0.5.0.nar-unpacked]
+2020-10-07 13:08:55,072 INFO [main] org.apache.nifi.nar.NarClassLoaders Loaded NAR file: /home/ubuntu/minifi/minifi-0.5.0/./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked as class loader org.apache.nifi.nar.NarClassLoader[./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked]
+2020-10-07 13:08:55,073 INFO [main] org.apache.nifi.nar.NarClassLoaders Loaded NAR file: /home/ubuntu/minifi/minifi-0.5.0/./work/nar/extensions/nifi-edge-nar-1.0-SNAPSHOT.nar-unpacked as class loader org.apache.nifi.nar.NarClassLoader[./work/nar/extensions/nifi-edge-nar-1.0-SNAPSHOT.nar-unpacked]
+2020-10-07 13:08:55,081 INFO [main] org.apache.nifi.nar.NarClassLoaders Loaded NAR file: /home/ubuntu/minifi/minifi-0.5.0/./work/nar/extensions/nifi-registry-nar-1.7.0.nar-unpacked as class loader org.apache.nifi.nar.NarClassLoader[./work/nar/extensions/nifi-registry-nar-1.7.0.nar-unpacked]
+2020-10-07 13:08:55,085 INFO [main] org.apache.nifi.nar.NarClassLoaders Loaded NAR file: /home/ubuntu/minifi/minifi-0.5.0/./work/nar/extensions/nifi-record-serialization-services-nar-1.7.0.nar-unpacked as class loader org.apache.nifi.nar.NarClassLoader[./work/nar/extensions/nifi-record-serialization-services-nar-1.7.0.nar-unpacked]
+2020-10-07 13:08:55,085 INFO [main] org.apache.nifi.nar.NarClassLoaders Loaded NAR file: /home/ubuntu/minifi/minifi-0.5.0/./work/nar/extensions/nifi-groovyx-nar-1.7.0.nar-unpacked as class loader org.apache.nifi.nar.NarClassLoader[./work/nar/extensions/nifi-groovyx-nar-1.7.0.nar-unpacked]
+2020-10-07 13:08:55,086 INFO [main] org.apache.nifi.nar.NarClassLoaders Loaded NAR file: /home/ubuntu/minifi/minifi-0.5.0/./work/nar/extensions/nifi-cloud-nar-1.0-SNAPSHOT.nar-unpacked as class loader org.apache.nifi.nar.NarClassLoader[./work/nar/extensions/nifi-cloud-nar-1.0-SNAPSHOT.nar-unpacked]
+2020-10-07 13:08:59,951 INFO [main] org.apache.nifi.nar.ExtensionManager Extension Type Mapping to Bundle:
+	=== FlowFilePrioritizer Type ===
+	org.apache.nifi.prioritizer.OldestFlowFileFirstPrioritizer
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.prioritizer.PriorityAttributePrioritizer
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.prioritizer.FirstInFirstOutPrioritizer
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.prioritizer.NewestFlowFileFirstPrioritizer
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	=== End FlowFilePrioritizer types ===
+	=== LoginIdentityProvider Type ===
+	=== End LoginIdentityProvider types ===
+	=== ProvenanceRepository Type ===
+	org.apache.nifi.provenance.WriteAheadProvenanceRepository
+		default:system:unversioned || ./lib
+	org.apache.nifi.provenance.NoOpProvenanceRepository
+		org.apache.nifi.minifi:minifi-provenance-repository-nar:0.5.0 || ./work/nar/extensions/minifi-provenance-repository-nar-0.5.0.nar-unpacked
+	org.apache.nifi.provenance.PersistentProvenanceRepository
+		default:system:unversioned || ./lib
+	org.apache.nifi.provenance.MiNiFiPersistentProvenanceRepository
+		org.apache.nifi.minifi:minifi-provenance-repository-nar:0.5.0 || ./work/nar/extensions/minifi-provenance-repository-nar-0.5.0.nar-unpacked
+	org.apache.nifi.provenance.EncryptedWriteAheadProvenanceRepository
+		default:system:unversioned || ./lib
+	=== End ProvenanceRepository types ===
+	=== FlowFileRepository Type ===
+	org.apache.nifi.controller.repository.VolatileFlowFileRepository
+		default:system:unversioned || ./lib
+	org.apache.nifi.controller.repository.WriteAheadFlowFileRepository
+		default:system:unversioned || ./lib
+	=== End FlowFileRepository types ===
+	=== ComponentStatusRepository Type ===
+	org.apache.nifi.controller.status.history.VolatileComponentStatusRepository
+		default:system:unversioned || ./lib
+	=== End ComponentStatusRepository types ===
+	=== Authorizer Type ===
+	org.apache.nifi.authorization.StandardManagedAuthorizer
+		default:system:unversioned || ./lib
+	=== End Authorizer types ===
+	=== Processor Type ===
+	org.apache.nifi.processors.standard.ForkRecord
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.MergeRecord
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.AttributesToCSV
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.DebugFlow
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.SplitText
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.EvaluateXQuery
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.ScanContent
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.InvokeHTTP
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.SplitJson
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.ExecuteSQL
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.PutDistributedMapCache
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.GetSFTP
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.ListenSyslog
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.GenerateFlowFile
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.ReplaceTextWithMapping
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.LookupRecord
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.ControlRate
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.ListFile
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.HashAttribute
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.LogAttribute
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.GetJMSTopic
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.AttributesToJSON
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.ParseSyslog
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.UpdateCounter
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.FlattenJson
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.QueryDatabaseTable
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.LogMessage
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.PutSQL
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.UnpackContent
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.TailFile
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.MonitorActivity
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.FetchFile
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	com.jarvis.processors.edge.MyProcessor
+		com.jarvis:nifi-edge-nar:1.0-SNAPSHOT || ./work/nar/extensions/nifi-edge-nar-1.0-SNAPSHOT.nar-unpacked
+	org.apache.nifi.processors.standard.ValidateXml
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.UpdateRecord
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.ConvertCharacterSet
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.EvaluateXPath
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.PutEmail
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.EvaluateJsonPath
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.PartitionRecord
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.ExecuteProcess
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.GetHTTP
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.Wait
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.ListSFTP
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.CountText
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.EncryptContent
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.ListenTCPRecord
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.Notify
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.ConvertRecord
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.RouteOnAttribute
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.ScanAttribute
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.ListenUDPRecord
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.ListFTP
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.ListDatabaseTables
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.CalculateRecordStats
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.ParseCEF
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.RouteText
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.CompressContent
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.PutSFTP
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.GetJMSQueue
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.LookupAttribute
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.QueryRecord
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.RouteOnContent
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.ListenTCP
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.GenerateTableFetch
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.JoltTransformJSON
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.DuplicateFlowFile
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.TransformXml
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.PutUDP
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.SegmentContent
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.attributes.UpdateAttribute
+		org.apache.nifi.minifi:minifi-update-attribute-nar:0.5.0 || ./work/nar/extensions/minifi-update-attribute-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.groovyx.ExecuteGroovyScript
+		org.apache.nifi:nifi-groovyx-nar:1.7.0 || ./work/nar/extensions/nifi-groovyx-nar-1.7.0.nar-unpacked
+	org.apache.nifi.processors.standard.PutTCP
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.PutSyslog
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.ExtractGrok
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.ListenRELP
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.PutFTP
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.MergeContent
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.SplitRecord
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.FetchDistributedMapCache
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.ListenUDP
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.FetchFTP
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.ValidateRecord
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.ConvertJSONToSQL
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.ListenHTTP
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.PutFile
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.GetFTP
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.HandleHttpResponse
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.SplitXml
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.ExtractText
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.PutDatabaseRecord
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.IdentifyMimeType
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.FetchSFTP
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.Base64EncodeContent
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.ReplaceText
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.EnforceOrder
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.HashContent
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.PostHTTP
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.ModifyBytes
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.DistributeLoad
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.HandleHttpRequest
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.PutJMS
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.ValidateCsv
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.DetectDuplicate
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.SplitContent
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	com.jarvis.processors.cloud.MyProcessor
+		com.jarvis:nifi-cloud-nar:1.0-SNAPSHOT || ./work/nar/extensions/nifi-cloud-nar-1.0-SNAPSHOT.nar-unpacked
+	org.apache.nifi.processors.standard.ExecuteStreamCommand
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.processors.standard.GetFile
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	=== End Processor types ===
+	=== ControllerService Type ===
+	org.apache.nifi.csv.CSVReader
+		org.apache.nifi:nifi-record-serialization-services-nar:1.7.0 || ./work/nar/extensions/nifi-record-serialization-services-nar-1.7.0.nar-unpacked
+	org.apache.nifi.csv.CSVRecordSetWriter
+		org.apache.nifi:nifi-record-serialization-services-nar:1.7.0 || ./work/nar/extensions/nifi-record-serialization-services-nar-1.7.0.nar-unpacked
+	org.apache.nifi.schemaregistry.services.AvroSchemaRegistry
+		org.apache.nifi:nifi-registry-nar:1.7.0 || ./work/nar/extensions/nifi-registry-nar-1.7.0.nar-unpacked
+	org.apache.nifi.grok.GrokReader
+		org.apache.nifi:nifi-record-serialization-services-nar:1.7.0 || ./work/nar/extensions/nifi-record-serialization-services-nar-1.7.0.nar-unpacked
+	org.apache.nifi.avro.AvroReader
+		org.apache.nifi:nifi-record-serialization-services-nar:1.7.0 || ./work/nar/extensions/nifi-record-serialization-services-nar-1.7.0.nar-unpacked
+	org.apache.nifi.xml.XMLRecordSetWriter
+		org.apache.nifi:nifi-record-serialization-services-nar:1.7.0 || ./work/nar/extensions/nifi-record-serialization-services-nar-1.7.0.nar-unpacked
+	org.apache.nifi.xml.XMLReader
+		org.apache.nifi:nifi-record-serialization-services-nar:1.7.0 || ./work/nar/extensions/nifi-record-serialization-services-nar-1.7.0.nar-unpacked
+	org.apache.nifi.json.JsonPathReader
+		org.apache.nifi:nifi-record-serialization-services-nar:1.7.0 || ./work/nar/extensions/nifi-record-serialization-services-nar-1.7.0.nar-unpacked
+	org.apache.nifi.json.JsonTreeReader
+		org.apache.nifi:nifi-record-serialization-services-nar:1.7.0 || ./work/nar/extensions/nifi-record-serialization-services-nar-1.7.0.nar-unpacked
+	org.apache.nifi.ssl.StandardSSLContextService
+		org.apache.nifi.minifi:minifi-ssl-context-service-nar:0.5.0 || ./work/nar/extensions/minifi-ssl-context-service-nar-0.5.0.nar-unpacked
+	org.apache.nifi.avro.AvroRecordSetWriter
+		org.apache.nifi:nifi-record-serialization-services-nar:1.7.0 || ./work/nar/extensions/nifi-record-serialization-services-nar-1.7.0.nar-unpacked
+	org.apache.nifi.json.JsonRecordSetWriter
+		org.apache.nifi:nifi-record-serialization-services-nar:1.7.0 || ./work/nar/extensions/nifi-record-serialization-services-nar-1.7.0.nar-unpacked
+	org.apache.nifi.ssl.StandardRestrictedSSLContextService
+		org.apache.nifi.minifi:minifi-ssl-context-service-nar:0.5.0 || ./work/nar/extensions/minifi-ssl-context-service-nar-0.5.0.nar-unpacked
+	org.apache.nifi.text.FreeFormTextRecordSetWriter
+		org.apache.nifi:nifi-record-serialization-services-nar:1.7.0 || ./work/nar/extensions/nifi-record-serialization-services-nar-1.7.0.nar-unpacked
+	=== End ControllerService types ===
+	=== FlowFileSwapManager Type ===
+	org.apache.nifi.controller.FileSystemSwapManager
+		default:system:unversioned || ./lib
+	=== End FlowFileSwapManager types ===
+	=== ReportingTask Type ===
+	org.apache.nifi.controller.MonitorDiskUsage
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.reporting.ganglia.StandardGangliaReporter
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.reporting.SiteToSiteMetricsReportingTask
+		org.apache.nifi.minifi:minifi-provenance-reporting-nar:0.5.0 || ./work/nar/extensions/minifi-provenance-reporting-nar-0.5.0.nar-unpacked
+	org.apache.nifi.reporting.SiteToSiteProvenanceReportingTask
+		org.apache.nifi.minifi:minifi-provenance-reporting-nar:0.5.0 || ./work/nar/extensions/minifi-provenance-reporting-nar-0.5.0.nar-unpacked
+	org.apache.nifi.reporting.SiteToSiteBulletinReportingTask
+		org.apache.nifi.minifi:minifi-provenance-reporting-nar:0.5.0 || ./work/nar/extensions/minifi-provenance-reporting-nar-0.5.0.nar-unpacked
+	org.apache.nifi.controller.ControllerStatusReportingTask
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.controller.MonitorMemory
+		org.apache.nifi.minifi:minifi-standard-nar:0.5.0 || ./work/nar/extensions/minifi-standard-nar-0.5.0.nar-unpacked
+	org.apache.nifi.reporting.SiteToSiteStatusReportingTask
+		org.apache.nifi.minifi:minifi-provenance-reporting-nar:0.5.0 || ./work/nar/extensions/minifi-provenance-reporting-nar-0.5.0.nar-unpacked
+	=== End ReportingTask types ===
+	=== StateProvider Type ===
+	org.apache.nifi.controller.state.providers.local.WriteAheadLocalStateProvider
+		default:system:unversioned || ./lib
+	org.apache.nifi.controller.state.providers.zookeeper.ZooKeeperStateProvider
+		default:system:unversioned || ./lib
+	=== End StateProvider types ===
+	=== ContentRepository Type ===
+	org.apache.nifi.controller.repository.FileSystemRepository
+		default:system:unversioned || ./lib
+	org.apache.nifi.controller.repository.VolatileContentRepository
+		default:system:unversioned || ./lib
+	=== End ContentRepository types ===
+2020-10-07 13:09:00,241 INFO [main] org.apache.nifi.minifi.MiNiFiServer Loading Flow...
+2020-10-07 13:09:00,305 INFO [main] o.a.nifi.util.FileBasedVariableRegistry Loaded 81 properties from system properties and environment variables
+2020-10-07 13:09:00,305 INFO [main] o.a.nifi.util.FileBasedVariableRegistry Loaded a total of 81 properties.  Including precedence overrides effective accessible registry key size is 81
+2020-10-07 13:09:00,454 INFO [main] o.a.n.c.r.WriteAheadFlowFileRepository Initialized FlowFile Repository using 256 partitions
+2020-10-07 13:09:00,489 INFO [main] o.a.n.p.PersistentProvenanceRepository Recovered 0 records
+2020-10-07 13:09:00,556 INFO [main] o.a.n.p.PersistentProvenanceRepository Created new Provenance Event Writers for events starting with ID 0
+2020-10-07 13:09:00,565 INFO [main] o.a.n.c.repository.FileSystemRepository Initializing FileSystemRepository with 'Always Sync' set to false
+2020-10-07 13:09:00,957 INFO [main] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@5f8890c2 finished recovering records. Performing Checkpoint to ensure proper state of Partitions before updates
+2020-10-07 13:09:00,957 INFO [main] org.wali.MinimalLockingWriteAheadLog Successfully recovered 0 records in 15 milliseconds
+2020-10-07 13:09:01,022 INFO [main] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@5f8890c2 checkpointed with 0 Records and 0 Swap Files in 64 milliseconds (Stop-the-world time = 1 milliseconds, Clear Edit Logs time = 1 millis), max Transaction ID -1
+2020-10-07 13:09:01,232 INFO [main] o.apache.nifi.controller.FlowController Not enabling RAW Socket Site-to-Site functionality because nifi.remote.input.socket.port is not set
+2020-10-07 13:09:01,232 INFO [main] o.apache.nifi.controller.FlowController Not enabling HTTP(S) Site-to-Site functionality because the 'nifi.remote.input.http.enabled' property is not true
+2020-10-07 13:09:01,317 INFO [main] o.a.n.p.FlowConfigurationArchiveManager None of archive max limitation is specified, fall back to the default configuration, maxTime=30 days, maxStorage=500 MB
+2020-10-07 13:09:01,763 WARN [main] o.a.n.c.StandardFlowSynchronizer Schema validation error parsing Flow Configuration at line 16, col 27: cvc-complex-type.2.4.a: Invalid content was found starting with element 'maxConcurrentTasks'. One of '{bundle}' is expected.
+2020-10-07 13:09:01,776 WARN [main] o.a.n.c.StandardFlowSynchronizer Schema validation error parsing Flow Configuration at line 78, col 27: cvc-complex-type.2.4.a: Invalid content was found starting with element 'maxConcurrentTasks'. One of '{bundle}' is expected.
+2020-10-07 13:09:01,777 WARN [main] o.a.n.c.StandardFlowSynchronizer Schema validation error parsing Flow Configuration at line 99, col 27: cvc-complex-type.2.4.a: Invalid content was found starting with element 'maxConcurrentTasks'. One of '{bundle}' is expected.
+2020-10-07 13:09:01,778 WARN [main] o.a.n.c.StandardFlowSynchronizer Schema validation error parsing Flow Configuration at line 146, col 27: cvc-complex-type.2.4.a: Invalid content was found starting with element 'maxConcurrentTasks'. One of '{bundle}' is expected.
+2020-10-07 13:09:01,780 WARN [main] o.a.n.c.StandardFlowSynchronizer Schema validation error parsing Flow Configuration at line 188, col 27: cvc-complex-type.2.4.a: Invalid content was found starting with element 'maxConcurrentTasks'. One of '{bundle}' is expected.
+2020-10-07 13:09:01,979 WARN [main] o.a.n.c.StandardFlowSynchronizer Schema validation error parsing Flow Configuration at line 796, col 26: cvc-complex-type.2.4.a: Invalid content was found starting with element 'networkInterface'. One of '{inputPort, outputPort}' is expected.
+2020-10-07 13:09:02,331 WARN [main] o.a.nifi.fingerprint.FingerprintFactory Schema validation error parsing Flow Configuration at line 16, col 27: cvc-complex-type.2.4.a: Invalid content was found starting with element 'maxConcurrentTasks'. One of '{bundle}' is expected.
+2020-10-07 13:09:02,332 WARN [main] o.a.nifi.fingerprint.FingerprintFactory Schema validation error parsing Flow Configuration at line 78, col 27: cvc-complex-type.2.4.a: Invalid content was found starting with element 'maxConcurrentTasks'. One of '{bundle}' is expected.
+2020-10-07 13:09:02,332 WARN [main] o.a.nifi.fingerprint.FingerprintFactory Schema validation error parsing Flow Configuration at line 99, col 27: cvc-complex-type.2.4.a: Invalid content was found starting with element 'maxConcurrentTasks'. One of '{bundle}' is expected.
+2020-10-07 13:09:02,333 WARN [main] o.a.nifi.fingerprint.FingerprintFactory Schema validation error parsing Flow Configuration at line 146, col 27: cvc-complex-type.2.4.a: Invalid content was found starting with element 'maxConcurrentTasks'. One of '{bundle}' is expected.
+2020-10-07 13:09:02,333 WARN [main] o.a.nifi.fingerprint.FingerprintFactory Schema validation error parsing Flow Configuration at line 188, col 27: cvc-complex-type.2.4.a: Invalid content was found starting with element 'maxConcurrentTasks'. One of '{bundle}' is expected.
+2020-10-07 13:09:02,439 WARN [main] o.a.nifi.fingerprint.FingerprintFactory Schema validation error parsing Flow Configuration at line 796, col 26: cvc-complex-type.2.4.a: Invalid content was found starting with element 'networkInterface'. One of '{inputPort, outputPort}' is expected.
+2020-10-07 13:09:02,502 WARN [main] o.a.nifi.fingerprint.FingerprintFactory Schema validation error parsing Flow Configuration at line 16, col 27: cvc-complex-type.2.4.a: Invalid content was found starting with element 'maxConcurrentTasks'. One of '{bundle}' is expected.
+2020-10-07 13:09:02,503 WARN [main] o.a.nifi.fingerprint.FingerprintFactory Schema validation error parsing Flow Configuration at line 78, col 27: cvc-complex-type.2.4.a: Invalid content was found starting with element 'maxConcurrentTasks'. One of '{bundle}' is expected.
+2020-10-07 13:09:02,503 WARN [main] o.a.nifi.fingerprint.FingerprintFactory Schema validation error parsing Flow Configuration at line 99, col 27: cvc-complex-type.2.4.a: Invalid content was found starting with element 'maxConcurrentTasks'. One of '{bundle}' is expected.
+2020-10-07 13:09:02,508 WARN [main] o.a.nifi.fingerprint.FingerprintFactory Schema validation error parsing Flow Configuration at line 146, col 27: cvc-complex-type.2.4.a: Invalid content was found starting with element 'maxConcurrentTasks'. One of '{bundle}' is expected.
+2020-10-07 13:09:02,544 WARN [main] o.a.nifi.fingerprint.FingerprintFactory Schema validation error parsing Flow Configuration at line 188, col 27: cvc-complex-type.2.4.a: Invalid content was found starting with element 'maxConcurrentTasks'. One of '{bundle}' is expected.
+2020-10-07 13:09:02,561 WARN [main] o.a.nifi.fingerprint.FingerprintFactory Schema validation error parsing Flow Configuration at line 796, col 26: cvc-complex-type.2.4.a: Invalid content was found starting with element 'networkInterface'. One of '{inputPort, outputPort}' is expected.
+2020-10-07 13:09:02,638 WARN [main] o.a.n.c.StandardFlowSynchronizer Schema validation error parsing Flow Configuration at line 16, col 27: cvc-complex-type.2.4.a: Invalid content was found starting with element 'maxConcurrentTasks'. One of '{bundle}' is expected.
+2020-10-07 13:09:02,639 WARN [main] o.a.n.c.StandardFlowSynchronizer Schema validation error parsing Flow Configuration at line 78, col 27: cvc-complex-type.2.4.a: Invalid content was found starting with element 'maxConcurrentTasks'. One of '{bundle}' is expected.
+2020-10-07 13:09:02,639 WARN [main] o.a.n.c.StandardFlowSynchronizer Schema validation error parsing Flow Configuration at line 99, col 27: cvc-complex-type.2.4.a: Invalid content was found starting with element 'maxConcurrentTasks'. One of '{bundle}' is expected.
+2020-10-07 13:09:02,639 WARN [main] o.a.n.c.StandardFlowSynchronizer Schema validation error parsing Flow Configuration at line 146, col 27: cvc-complex-type.2.4.a: Invalid content was found starting with element 'maxConcurrentTasks'. One of '{bundle}' is expected.
+2020-10-07 13:09:02,640 WARN [main] o.a.n.c.StandardFlowSynchronizer Schema validation error parsing Flow Configuration at line 188, col 27: cvc-complex-type.2.4.a: Invalid content was found starting with element 'maxConcurrentTasks'. One of '{bundle}' is expected.
+2020-10-07 13:09:02,679 WARN [main] o.a.n.c.StandardFlowSynchronizer Schema validation error parsing Flow Configuration at line 796, col 26: cvc-complex-type.2.4.a: Invalid content was found starting with element 'networkInterface'. One of '{inputPort, outputPort}' is expected.
+2020-10-07 13:09:04,164 WARN [main] o.a.n.c.StandardFlowSynchronizer Schema validation error parsing Flow Configuration at line 16, col 27: cvc-complex-type.2.4.a: Invalid content was found starting with element 'maxConcurrentTasks'. One of '{bundle}' is expected.
+2020-10-07 13:09:04,165 WARN [main] o.a.n.c.StandardFlowSynchronizer Schema validation error parsing Flow Configuration at line 78, col 27: cvc-complex-type.2.4.a: Invalid content was found starting with element 'maxConcurrentTasks'. One of '{bundle}' is expected.
+2020-10-07 13:09:04,165 WARN [main] o.a.n.c.StandardFlowSynchronizer Schema validation error parsing Flow Configuration at line 99, col 27: cvc-complex-type.2.4.a: Invalid content was found starting with element 'maxConcurrentTasks'. One of '{bundle}' is expected.
+2020-10-07 13:09:04,216 WARN [main] o.a.n.c.StandardFlowSynchronizer Schema validation error parsing Flow Configuration at line 146, col 27: cvc-complex-type.2.4.a: Invalid content was found starting with element 'maxConcurrentTasks'. One of '{bundle}' is expected.
+2020-10-07 13:09:04,217 WARN [main] o.a.n.c.StandardFlowSynchronizer Schema validation error parsing Flow Configuration at line 188, col 27: cvc-complex-type.2.4.a: Invalid content was found starting with element 'maxConcurrentTasks'. One of '{bundle}' is expected.
+2020-10-07 13:09:04,254 WARN [main] o.a.n.c.StandardFlowSynchronizer Schema validation error parsing Flow Configuration at line 796, col 26: cvc-complex-type.2.4.a: Invalid content was found starting with element 'networkInterface'. One of '{inputPort, outputPort}' is expected.
+2020-10-07 13:09:04,311 INFO [main] o.apache.nifi.controller.FlowController Successfully synchronized controller with proposed flow
+2020-10-07 13:09:04,334 WARN [main] o.a.n.c.StandardFlowSynchronizer Schema validation error parsing Flow Configuration at line 16, col 27: cvc-complex-type.2.4.a: Invalid content was found starting with element 'maxConcurrentTasks'. One of '{bundle}' is expected.
+2020-10-07 13:09:04,335 WARN [main] o.a.n.c.StandardFlowSynchronizer Schema validation error parsing Flow Configuration at line 78, col 27: cvc-complex-type.2.4.a: Invalid content was found starting with element 'maxConcurrentTasks'. One of '{bundle}' is expected.
+2020-10-07 13:09:04,335 WARN [main] o.a.n.c.StandardFlowSynchronizer Schema validation error parsing Flow Configuration at line 99, col 27: cvc-complex-type.2.4.a: Invalid content was found starting with element 'maxConcurrentTasks'. One of '{bundle}' is expected.
+2020-10-07 13:09:04,336 WARN [main] o.a.n.c.StandardFlowSynchronizer Schema validation error parsing Flow Configuration at line 146, col 27: cvc-complex-type.2.4.a: Invalid content was found starting with element 'maxConcurrentTasks'. One of '{bundle}' is expected.
+2020-10-07 13:09:04,339 WARN [main] o.a.n.c.StandardFlowSynchronizer Schema validation error parsing Flow Configuration at line 188, col 27: cvc-complex-type.2.4.a: Invalid content was found starting with element 'maxConcurrentTasks'. One of '{bundle}' is expected.
+2020-10-07 13:09:04,393 WARN [main] o.a.n.c.StandardFlowSynchronizer Schema validation error parsing Flow Configuration at line 796, col 26: cvc-complex-type.2.4.a: Invalid content was found starting with element 'networkInterface'. One of '{inputPort, outputPort}' is expected.
+2020-10-07 13:09:04,415 INFO [main] o.a.n.wali.SequentialAccessWriteAheadLog Recovering records from Write-Ahead Log at ./flowfile_repository
+2020-10-07 13:09:04,420 INFO [main] o.a.n.wali.SequentialAccessWriteAheadLog No Snapshot File to recover from at ./flowfile_repository. Now recovering records from 0 journal files
+2020-10-07 13:09:04,475 INFO [main] o.a.n.wali.SequentialAccessWriteAheadLog Successfully recovered 0 records in 56 milliseconds. Now checkpointing to ensure that Write-Ahead Log is in a consistent state
+2020-10-07 13:09:04,594 INFO [main] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 0 Records and 0 Swap Files in 118 milliseconds (Stop-the-world time = 97 milliseconds), max Transaction ID -1
+2020-10-07 13:09:04,595 INFO [main] o.a.n.c.r.WriteAheadFlowFileRepository Successfully restored 0 FlowFiles
+2020-10-07 13:09:05,532 INFO [main] o.apache.nifi.controller.FlowController Performed initial validation of all components in 3 milliseconds
+2020-10-07 13:09:05,548 INFO [main] o.apache.nifi.controller.FlowController Starting 69 processors/ports/funnels
+2020-10-07 13:09:05,572 INFO [main] o.a.n.c.s.StandardProcessScheduler Starting GetFile[id=a817ad5e-3b57-3b23-0000-000000000000]
+2020-10-07 13:09:05,595 INFO [main] o.a.n.c.s.StandardProcessScheduler Starting MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000]
+2020-10-07 13:09:05,596 INFO [main] o.a.n.c.s.StandardProcessScheduler Starting UpdateAttribute[id=36edb56c-214d-3ea4-0000-000000000000]
+2020-10-07 13:09:05,702 INFO [main] o.a.n.c.s.StandardProcessScheduler Starting UpdateAttribute[id=a102dfe7-9923-3995-0000-000000000000]
+2020-10-07 13:09:05,702 INFO [main] o.a.n.c.s.StandardProcessScheduler Starting UpdateAttribute[id=ecb9aaed-1344-3f19-0000-000000000000]
+2020-10-07 13:09:05,868 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi09,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi09 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:05,869 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi53,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi53 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:05,869 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi52,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi52 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:05,869 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi11,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi11 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:05,869 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi55,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi55 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:05,870 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi10,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi10 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:05,870 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi54,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi54 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:05,870 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi51,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi51 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:05,870 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi50,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi50 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:05,870 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi17,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi17 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:05,870 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi16,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi16 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:05,951 INFO [Monitor Processor Lifecycle Thread-1] o.a.n.c.s.TimerDrivenSchedulingAgent Scheduled GetFile[id=a817ad5e-3b57-3b23-0000-000000000000] to run with 1 threads
+2020-10-07 13:09:05,871 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi19,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi19 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:05,951 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi18,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi18 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:05,951 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi57,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi57 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:05,990 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi13,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi13 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:05,990 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi56,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi56 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:05,990 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi12,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi12 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:05,991 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi15,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi15 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:05,991 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi59,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi59 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:05,991 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi14,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi14 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:05,991 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi58,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi58 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:05,991 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi42,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi42 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:05,991 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi41,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi41 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:05,991 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi44,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi44 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:06,032 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi43,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi43 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:06,033 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi40,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi40 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:06,033 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi06,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi06 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:06,033 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi49,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi49 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:06,033 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi05,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi05 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:06,033 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi08,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi08 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:06,033 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi07,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi07 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:06,033 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi02,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi02 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:06,033 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi46,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi46 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:06,034 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi45,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi45 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:06,034 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi01,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi01 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:06,034 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi04,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi04 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:06,034 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi48,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi48 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:06,277 INFO [Monitor Processor Lifecycle Thread-1] o.a.n.c.s.TimerDrivenSchedulingAgent Scheduled UpdateAttribute[id=36edb56c-214d-3ea4-0000-000000000000] to run with 1 threads
+2020-10-07 13:09:06,034 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi03,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi03 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:06,278 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi47,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi47 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:06,279 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi31,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi31 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:06,279 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi30,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi30 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:06,279 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi33,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi33 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:06,279 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi32,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi32 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:06,279 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi39,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi39 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:06,279 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi38,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi38 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:06,279 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi35,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi35 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:06,279 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi34,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi34 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:06,280 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi37,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi37 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:06,280 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi36,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi36 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:06,280 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:06,280 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi20,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi20 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:06,280 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi63,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi63 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:06,280 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi22,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi22 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:06,280 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi21,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi21 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:06,280 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi60,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi60 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:06,810 DEBUG [Monitor Processor Lifecycle Thread-2] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] Debug status in config file is: INFO
+2020-10-07 13:09:06,810 INFO [Monitor Processor Lifecycle Thread-1] o.a.n.c.s.TimerDrivenSchedulingAgent Scheduled UpdateAttribute[id=a102dfe7-9923-3995-0000-000000000000] to run with 1 threads
+2020-10-07 13:09:06,811 INFO [Monitor Processor Lifecycle Thread-1] o.a.n.c.s.TimerDrivenSchedulingAgent Scheduled UpdateAttribute[id=ecb9aaed-1344-3f19-0000-000000000000] to run with 1 threads
+2020-10-07 13:09:06,972 DEBUG [Monitor Processor Lifecycle Thread-2] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] Join key status is: 10
+2020-10-07 13:09:06,972 DEBUG [Monitor Processor Lifecycle Thread-2] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] Join table size is: 3
+2020-10-07 13:09:06,972 INFO [Monitor Processor Lifecycle Thread-2] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:06 [Thread id: 42]: [MyProcessor.initializeFromConfig] Running onScheduled initialization code
+2020-10-07 13:09:07,509 INFO [main] o.a.n.c.s.TimerDrivenSchedulingAgent Scheduled RemoteGroupPort[name=From MiNiFi62,targets=http://172.31.17.121:8080/nifi] to run with 2 threads
+2020-10-07 13:09:07,750 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi61,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi61 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:07,750 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi28,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi28 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:07,750 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi27,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi27 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:07,750 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi29,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi29 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:07,751 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi24,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi24 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:07,751 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi23,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi23 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:07,751 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi26,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi26 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:07,751 ERROR [main] o.apache.nifi.controller.FlowController Unable to start transmitting with RemoteGroupPort[name=From MiNiFi25,targets=http://172.31.17.121:8080/nifi] due to {}
+java.lang.IllegalStateException: Port From MiNiFi25 has no incoming connections
+	at org.apache.nifi.remote.StandardRemoteGroupPort.verifyCanStart(StandardRemoteGroupPort.java:510)
+	at org.apache.nifi.remote.StandardRemoteProcessGroup.startTransmitting(StandardRemoteProcessGroup.java:1022)
+	at org.apache.nifi.controller.FlowController.onFlowInitialized(FlowController.java:913)
+	at org.apache.nifi.minifi.MiNiFiServer.start(MiNiFiServer.java:123)
+	at org.apache.nifi.minifi.MiNiFi.<init>(MiNiFi.java:148)
+	at org.apache.nifi.minifi.MiNiFi.main(MiNiFi.java:247)
+2020-10-07 13:09:07,751 INFO [main] o.apache.nifi.controller.FlowController Started 1 Remote Group Ports transmitting
+2020-10-07 13:09:08,161 INFO [main] org.apache.nifi.minifi.MiNiFiServer Flow loaded successfully.
+2020-10-07 13:09:08,281 INFO [main] org.apache.nifi.BootstrapListener Successfully initiated communication with Bootstrap
+2020-10-07 13:09:08,282 INFO [main] org.apache.nifi.minifi.MiNiFi Controller initialization took 8040599040 nanoseconds.
+2020-10-07 13:09:11,683 INFO [Monitor Processor Lifecycle Thread-2] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:11 [Thread id: 42]: [Debug] CpId is: 0
+2020-10-07 13:09:12,174 INFO [NiFi Site-to-Site Connection Pool Maintenance] o.apache.nifi.remote.client.PeerSelector org.apache.nifi.remote.client.PeerSelector@77521d0a Successfully refreshed Peer Status; remote instance consists of 1 peers
+2020-10-07 13:09:13,309 INFO [Monitor Processor Lifecycle Thread-2] o.a.n.c.s.TimerDrivenSchedulingAgent Scheduled MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] to run with 1 threads
+2020-10-07 13:09:13,678 INFO [Timer-Driven Process Thread-10] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:13 [Thread id: 49]: [MyProcessor.extractRecords] Reading new epoch
+2020-10-07 13:09:14,295 INFO [Timer-Driven Process Thread-10] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:14 [Thread id: 49]: 0[FirstControlProxy.put] New epoch entering, whose epoch number i.e. watermark seq num will be: 0
+2020-10-07 13:09:14,332 INFO [Timer-Driven Process Thread-10] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:14 [Thread id: 49]: [FirstControlProxy.put] Prob sending to edge is: 1.0
+2020-10-07 13:09:19,739 INFO [Timer-Driven Process Thread-10] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:19 [Thread id: 49]: Putting watermark into first Cp
+2020-10-07 13:09:19,739 INFO [Timer-Driven Process Thread-10] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:19 [Thread id: 49]: 0 [FirstControlProxy.putWaterMark] Watermark seen with seq num: 0
+2020-10-07 13:09:20,066 INFO [Timer-Driven Process Thread-10] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:20 [Thread id: 49]: [MyProcessor.extractRecords] Reading new epoch
+2020-10-07 13:09:20,066 INFO [Timer-Driven Process Thread-10] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:20 [Thread id: 49]: 0[FirstControlProxy.put] New epoch entering, whose epoch number i.e. watermark seq num will be: 1
+2020-10-07 13:09:20,066 INFO [Timer-Driven Process Thread-10] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:20 [Thread id: 49]: [FirstControlProxy.put] Prob sending to edge is: 1.0
+2020-10-07 13:09:22,649 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:22 [Thread id: 53]: [FirstControlProxy.take] Size of recent window processed is 8318520.0
+2020-10-07 13:09:22,812 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:22 [Thread id: 53]: [FinalControlProxy.putWaterMark] Seen watermark in final queue with seq num: 0
+2020-10-07 13:09:22,812 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:22 [Thread id: 53]: [Debug] CpId is: 0
+2020-10-07 13:09:22,978 INFO [Thread-8] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:22 [Thread id: 57]: [CloudUploader.sendToCloud] The size of network queue is 3497554
+2020-10-07 13:09:23,509 INFO [Timer-Driven Process Thread-10] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:23 [Thread id: 49]: Putting watermark into first Cp
+2020-10-07 13:09:23,509 INFO [Timer-Driven Process Thread-10] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:23 [Thread id: 49]: 0 [FirstControlProxy.putWaterMark] Watermark seen with seq num: 1
+2020-10-07 13:09:23,999 INFO [Timer-Driven Process Thread-10] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:23 [Thread id: 49]: [MyProcessor.extractRecords] Reading new epoch
+2020-10-07 13:09:24,000 INFO [Timer-Driven Process Thread-10] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:24 [Thread id: 49]: 0[FirstControlProxy.put] New epoch entering, whose epoch number i.e. watermark seq num will be: 2
+2020-10-07 13:09:24,164 INFO [Timer-Driven Process Thread-10] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:24 [Thread id: 49]: [FirstControlProxy.put] Prob sending to edge is: 1.0
+2020-10-07 13:09:24,571 INFO [Timer-Driven Process Thread-7] o.apache.nifi.remote.client.PeerSelector New Weighted Distribution of Nodes:
+PeerStatus[hostname=172.31.17.121,port=1026,secure=false,flowFileCount=0] will receive 100.0% of data
+2020-10-07 13:09:28,059 INFO [Timer-Driven Process Thread-10] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:28 [Thread id: 49]: Putting watermark into first Cp
+2020-10-07 13:09:28,062 INFO [Timer-Driven Process Thread-10] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:28 [Thread id: 49]: 0 [FirstControlProxy.putWaterMark] Watermark seen with seq num: 2
+2020-10-07 13:09:28,182 INFO [Timer-Driven Process Thread-10] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:28 [Thread id: 49]: [MyProcessor.extractRecords] Reading new epoch
+2020-10-07 13:09:28,222 INFO [Timer-Driven Process Thread-10] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:28 [Thread id: 49]: 0[FirstControlProxy.put] New epoch entering, whose epoch number i.e. watermark seq num will be: 3
+2020-10-07 13:09:28,222 INFO [Timer-Driven Process Thread-10] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:28 [Thread id: 49]: [FirstControlProxy.put] Prob sending to edge is: 1.0
+2020-10-07 13:09:28,999 INFO [Timer-Driven Process Thread-7] o.a.nifi.remote.StandardRemoteGroupPort RemoteGroupPort[name=From MiNiFi62,targets=http://172.31.17.121:8080/nifi] Successfully sent [StandardFlowFileRecord[uuid=064b6c44-f1e2-4667-b1c9-318d336bb037,claim=StandardContentClaim [resourceClaim=StandardResourceClaim[id=1602076159246-3, container=default, section=3], offset=6995076, length=3497554],offset=0,name=957066483899,size=3497554]] (3.34 MB) to nifi://172.31.17.121:1026 in 3730 milliseconds at a rate of 915.57 KB/sec
+2020-10-07 13:09:30,189 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:30 [Thread id: 53]: [FirstControlProxy.take] Size of recent window processed is 8318520.0
+2020-10-07 13:09:30,268 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:30 [Thread id: 53]: [FinalControlProxy.putWaterMark] Seen watermark in final queue with seq num: 1
+2020-10-07 13:09:30,268 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:30 [Thread id: 53]: [Debug] CpId is: 0
+2020-10-07 13:09:30,389 INFO [Thread-9] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:30 [Thread id: 59]: [CloudUploader.sendToCloud] The size of network queue is 3497554
+2020-10-07 13:09:31,618 INFO [Timer-Driven Process Thread-10] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:31 [Thread id: 49]: Putting watermark into first Cp
+2020-10-07 13:09:31,618 INFO [Timer-Driven Process Thread-10] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:31 [Thread id: 49]: 0 [FirstControlProxy.putWaterMark] Watermark seen with seq num: 3
+2020-10-07 13:09:31,902 INFO [Timer-Driven Process Thread-2] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:31 [Thread id: 38]: [MyProcessor.extractRecords] Reading new epoch
+2020-10-07 13:09:31,902 INFO [Timer-Driven Process Thread-2] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:31 [Thread id: 38]: 0[FirstControlProxy.put] New epoch entering, whose epoch number i.e. watermark seq num will be: 4
+2020-10-07 13:09:31,902 INFO [Timer-Driven Process Thread-2] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:31 [Thread id: 38]: [FirstControlProxy.put] Prob sending to edge is: 1.0
+2020-10-07 13:09:34,973 INFO [Timer-Driven Process Thread-2] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:34 [Thread id: 38]: Putting watermark into first Cp
+2020-10-07 13:09:34,973 INFO [Timer-Driven Process Thread-2] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:34 [Thread id: 38]: 0 [FirstControlProxy.putWaterMark] Watermark seen with seq num: 4
+2020-10-07 13:09:35,179 INFO [Timer-Driven Process Thread-2] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:35 [Thread id: 38]: [MyProcessor.extractRecords] Reading new epoch
+2020-10-07 13:09:35,180 INFO [Timer-Driven Process Thread-2] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:35 [Thread id: 38]: 0[FirstControlProxy.put] New epoch entering, whose epoch number i.e. watermark seq num will be: 5
+2020-10-07 13:09:35,180 INFO [Timer-Driven Process Thread-2] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:35 [Thread id: 38]: [FirstControlProxy.put] Prob sending to edge is: 1.0
+2020-10-07 13:09:36,160 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:36 [Thread id: 53]: [FirstControlProxy.take] Size of recent window processed is 8318520.0
+2020-10-07 13:09:36,161 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:36 [Thread id: 53]: [FinalControlProxy.putWaterMark] Seen watermark in final queue with seq num: 2
+2020-10-07 13:09:36,198 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:36 [Thread id: 53]: [Debug] CpId is: 0
+2020-10-07 13:09:36,239 INFO [Thread-10] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:36 [Thread id: 61]: [CloudUploader.sendToCloud] The size of network queue is 3497554
+2020-10-07 13:09:36,403 INFO [Timer-Driven Process Thread-10] o.a.nifi.remote.StandardRemoteGroupPort RemoteGroupPort[name=From MiNiFi62,targets=http://172.31.17.121:8080/nifi] Successfully sent [StandardFlowFileRecord[uuid=52eb924a-5f7b-42a8-a6e6-ae6bc795ce50,claim=StandardContentClaim [resourceClaim=StandardResourceClaim[id=1602076170390-6, container=default, section=6], offset=0, length=3497554],offset=0,name=964478313843,size=3497554]] (3.34 MB) to nifi://172.31.17.121:1026 in 4579 milliseconds at a rate of 745.78 KB/sec
+2020-10-07 13:09:39,187 INFO [Timer-Driven Process Thread-2] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:39 [Thread id: 38]: Putting watermark into first Cp
+2020-10-07 13:09:39,187 INFO [Timer-Driven Process Thread-2] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:39 [Thread id: 38]: 0 [FirstControlProxy.putWaterMark] Watermark seen with seq num: 5
+2020-10-07 13:09:39,308 INFO [Timer-Driven Process Thread-2] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:39 [Thread id: 38]: [MyProcessor.extractRecords] Reading new epoch
+2020-10-07 13:09:39,348 INFO [Timer-Driven Process Thread-2] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:39 [Thread id: 38]: 0[FirstControlProxy.put] New epoch entering, whose epoch number i.e. watermark seq num will be: 6
+2020-10-07 13:09:39,348 INFO [Timer-Driven Process Thread-2] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:39 [Thread id: 38]: [FirstControlProxy.put] Prob sending to edge is: 1.0
+2020-10-07 13:09:40,658 INFO [Timer-Driven Process Thread-6] o.a.nifi.remote.StandardRemoteGroupPort RemoteGroupPort[name=From MiNiFi62,targets=http://172.31.17.121:8080/nifi] Successfully sent [StandardFlowFileRecord[uuid=2f1de558-a9fb-4029-b3d1-7505871ce492,claim=StandardContentClaim [resourceClaim=StandardResourceClaim[id=1602076176239-7, container=default, section=7], offset=0, length=3497554],offset=0,name=970327932329,size=3497554]] (3.34 MB) to nifi://172.31.17.121:1026 in 3437 milliseconds at a rate of 993.68 KB/sec
+2020-10-07 13:09:42,869 INFO [Timer-Driven Process Thread-2] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:42 [Thread id: 38]: Putting watermark into first Cp
+2020-10-07 13:09:42,870 INFO [Timer-Driven Process Thread-2] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:42 [Thread id: 38]: 0 [FirstControlProxy.putWaterMark] Watermark seen with seq num: 6
+2020-10-07 13:09:42,912 INFO [Timer-Driven Process Thread-6] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:42 [Thread id: 45]: [MyProcessor.extractRecords] Reading new epoch
+2020-10-07 13:09:42,912 INFO [Timer-Driven Process Thread-6] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:42 [Thread id: 45]: 0[FirstControlProxy.put] New epoch entering, whose epoch number i.e. watermark seq num will be: 7
+2020-10-07 13:09:42,912 INFO [Timer-Driven Process Thread-6] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:42 [Thread id: 45]: [FirstControlProxy.put] Prob sending to edge is: 1.0
+2020-10-07 13:09:43,603 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:43 [Thread id: 53]: [FirstControlProxy.take] Size of recent window processed is 8318520.0
+2020-10-07 13:09:43,605 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:43 [Thread id: 53]: [FinalControlProxy.putWaterMark] Seen watermark in final queue with seq num: 3
+2020-10-07 13:09:43,605 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:43 [Thread id: 53]: [Debug] CpId is: 0
+2020-10-07 13:09:43,813 INFO [Thread-11] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:43 [Thread id: 62]: [CloudUploader.sendToCloud] The size of network queue is 3497554
+2020-10-07 13:09:48,475 INFO [Timer-Driven Process Thread-6] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:48 [Thread id: 45]: Putting watermark into first Cp
+2020-10-07 13:09:48,512 INFO [Timer-Driven Process Thread-6] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:48 [Thread id: 45]: 0 [FirstControlProxy.putWaterMark] Watermark seen with seq num: 7
+2020-10-07 13:09:48,553 INFO [Timer-Driven Process Thread-5] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:48 [Thread id: 44]: [MyProcessor.extractRecords] Reading new epoch
+2020-10-07 13:09:48,554 INFO [Timer-Driven Process Thread-5] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:48 [Thread id: 44]: 0[FirstControlProxy.put] New epoch entering, whose epoch number i.e. watermark seq num will be: 8
+2020-10-07 13:09:48,554 INFO [Timer-Driven Process Thread-5] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:48 [Thread id: 44]: [FirstControlProxy.put] Prob sending to edge is: 1.0
+2020-10-07 13:09:50,888 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:50 [Thread id: 53]: [FirstControlProxy.take] Size of recent window processed is 8318520.0
+2020-10-07 13:09:52,854 INFO [Timer-Driven Process Thread-1] o.a.nifi.remote.StandardRemoteGroupPort RemoteGroupPort[name=From MiNiFi62,targets=http://172.31.17.121:8080/nifi] Successfully sent [StandardFlowFileRecord[uuid=fa71d202-2745-4bd2-9499-0be96c191dc7,claim=StandardContentClaim [resourceClaim=StandardResourceClaim[id=1602076183643-9, container=default, section=9], offset=3497538, length=3497554],offset=0,name=978100970519,size=3497554]] (3.34 MB) to nifi://172.31.17.121:1026 in 7614 milliseconds at a rate of 448.55 KB/sec
+2020-10-07 13:09:52,895 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:52 [Thread id: 53]: [FinalControlProxy.putWaterMark] Seen watermark in final queue with seq num: 4
+2020-10-07 13:09:52,895 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:52 [Thread id: 53]: [Debug] CpId is: 0
+2020-10-07 13:09:53,059 INFO [Timer-Driven Process Thread-5] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:53 [Thread id: 44]: Putting watermark into first Cp
+2020-10-07 13:09:53,059 INFO [Timer-Driven Process Thread-5] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:53 [Thread id: 44]: 0 [FirstControlProxy.putWaterMark] Watermark seen with seq num: 8
+2020-10-07 13:09:53,097 INFO [Thread-12] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:53 [Thread id: 64]: [CloudUploader.sendToCloud] The size of network queue is 3497554
+2020-10-07 13:09:53,548 INFO [Timer-Driven Process Thread-5] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:53 [Thread id: 44]: [MyProcessor.extractRecords] Reading new epoch
+2020-10-07 13:09:53,548 INFO [Timer-Driven Process Thread-5] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:53 [Thread id: 44]: 0[FirstControlProxy.put] New epoch entering, whose epoch number i.e. watermark seq num will be: 9
+2020-10-07 13:09:53,548 INFO [Timer-Driven Process Thread-5] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:53 [Thread id: 44]: [FirstControlProxy.put] Prob sending to edge is: 1.0
+2020-10-07 13:09:56,456 INFO [Timer-Driven Process Thread-5] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:56 [Thread id: 44]: Putting watermark into first Cp
+2020-10-07 13:09:56,456 INFO [Timer-Driven Process Thread-5] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:56 [Thread id: 44]: 0 [FirstControlProxy.putWaterMark] Watermark seen with seq num: 9
+2020-10-07 13:09:56,458 INFO [Timer-Driven Process Thread-2] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:56 [Thread id: 38]: [MyProcessor.extractRecords] Reading new epoch
+2020-10-07 13:09:56,458 INFO [Timer-Driven Process Thread-2] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:56 [Thread id: 38]: 0[FirstControlProxy.put] New epoch entering, whose epoch number i.e. watermark seq num will be: 10
+2020-10-07 13:09:56,458 INFO [Timer-Driven Process Thread-2] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:56 [Thread id: 38]: [FirstControlProxy.put] Prob sending to edge is: 1.0
+2020-10-07 13:09:57,438 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:57 [Thread id: 53]: [FirstControlProxy.take] Size of recent window processed is 8318520.0
+2020-10-07 13:09:57,439 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:57 [Thread id: 53]: [FinalControlProxy.putWaterMark] Seen watermark in final queue with seq num: 5
+2020-10-07 13:09:57,439 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:57 [Thread id: 53]: [Debug] CpId is: 0
+2020-10-07 13:09:57,482 INFO [Thread-13] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:57 [Thread id: 65]: [CloudUploader.sendToCloud] The size of network queue is 3497554
+2020-10-07 13:09:59,492 INFO [Timer-Driven Process Thread-2] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:59 [Thread id: 38]: Putting watermark into first Cp
+2020-10-07 13:09:59,493 INFO [Timer-Driven Process Thread-2] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:59 [Thread id: 38]: 0 [FirstControlProxy.putWaterMark] Watermark seen with seq num: 10
+2020-10-07 13:09:59,494 INFO [Timer-Driven Process Thread-2] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:59 [Thread id: 38]: [MyProcessor.extractRecords] Reading new epoch
+2020-10-07 13:09:59,532 INFO [Timer-Driven Process Thread-2] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:59 [Thread id: 38]: 0[FirstControlProxy.put] New epoch entering, whose epoch number i.e. watermark seq num will be: 11
+2020-10-07 13:09:59,532 INFO [Timer-Driven Process Thread-2] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:09:59 [Thread id: 38]: [FirstControlProxy.put] Prob sending to edge is: 1.0
+2020-10-07 13:10:00,701 INFO [Provenance Maintenance Thread-2] o.a.n.p.PersistentProvenanceRepository Created new Provenance Event Writers for events starting with ID 95
+2020-10-07 13:10:04,279 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:04 [Thread id: 53]: [FirstControlProxy.take] Size of recent window processed is 8318520.0
+2020-10-07 13:10:04,486 INFO [Thread-14] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:04 [Thread id: 67]: [CloudUploader.sendToCloud] The size of network queue is 3497554
+2020-10-07 13:10:04,689 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:04 [Thread id: 53]: [FinalControlProxy.putWaterMark] Seen watermark in final queue with seq num: 6
+2020-10-07 13:10:04,689 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:04 [Thread id: 53]: [Debug] CpId is: 0
+2020-10-07 13:10:05,181 INFO [Timer-Driven Process Thread-2] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:05 [Thread id: 38]: Putting watermark into first Cp
+2020-10-07 13:10:05,223 INFO [Timer-Driven Process Thread-2] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:05 [Thread id: 38]: 0 [FirstControlProxy.putWaterMark] Watermark seen with seq num: 11
+2020-10-07 13:10:05,226 INFO [Timer-Driven Process Thread-5] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:05 [Thread id: 44]: [MyProcessor.extractRecords] Reading new epoch
+2020-10-07 13:10:05,226 INFO [Timer-Driven Process Thread-5] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:05 [Thread id: 44]: 0[FirstControlProxy.put] New epoch entering, whose epoch number i.e. watermark seq num will be: 12
+2020-10-07 13:10:05,226 INFO [Timer-Driven Process Thread-5] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:05 [Thread id: 44]: [FirstControlProxy.put] Prob sending to edge is: 1.0
+2020-10-07 13:10:05,970 INFO [Timer-Driven Process Thread-5] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:05 [Thread id: 44]: Putting watermark into first Cp
+2020-10-07 13:10:05,972 INFO [Timer-Driven Process Thread-5] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:05 [Thread id: 44]: 0 [FirstControlProxy.putWaterMark] Watermark seen with seq num: 12
+2020-10-07 13:10:05,975 INFO [Timer-Driven Process Thread-1] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:05 [Thread id: 28]: [MyProcessor.extractRecords] Reading new epoch
+2020-10-07 13:10:05,975 INFO [Timer-Driven Process Thread-1] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:05 [Thread id: 28]: 0[FirstControlProxy.put] New epoch entering, whose epoch number i.e. watermark seq num will be: 13
+2020-10-07 13:10:05,975 INFO [Timer-Driven Process Thread-1] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:05 [Thread id: 28]: [FirstControlProxy.put] Prob sending to edge is: 1.0
+2020-10-07 13:10:06,173 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:06 [Thread id: 53]: [FirstControlProxy.take] Size of recent window processed is 8318520.0
+2020-10-07 13:10:06,188 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:06 [Thread id: 53]: [FinalControlProxy.putWaterMark] Seen watermark in final queue with seq num: 7
+2020-10-07 13:10:06,188 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:06 [Thread id: 53]: [Debug] CpId is: 0
+2020-10-07 13:10:06,193 INFO [Thread-15] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:06 [Thread id: 71]: [CloudUploader.sendToCloud] The size of network queue is 3497554
+2020-10-07 13:10:06,284 INFO [Timer-Driven Process Thread-3] o.a.nifi.remote.StandardRemoteGroupPort RemoteGroupPort[name=From MiNiFi62,targets=http://172.31.17.121:8080/nifi] Successfully sent [StandardFlowFileRecord[uuid=9e171953-9c94-447b-b5f0-1677668883d9,claim=StandardContentClaim [resourceClaim=StandardResourceClaim[id=1602076192729-11, container=default, section=11], offset=3497538, length=3497554],offset=0,name=987186071873,size=3497554]] (3.34 MB) to nifi://172.31.17.121:1026 in 12568 milliseconds at a rate of 271.75 KB/sec
+2020-10-07 13:10:06,344 INFO [Timer-Driven Process Thread-1] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:06 [Thread id: 28]: Putting watermark into first Cp
+2020-10-07 13:10:06,344 INFO [Timer-Driven Process Thread-1] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:06 [Thread id: 28]: 0 [FirstControlProxy.putWaterMark] Watermark seen with seq num: 13
+2020-10-07 13:10:06,348 INFO [Timer-Driven Process Thread-6] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:06 [Thread id: 45]: [MyProcessor.extractRecords] Reading new epoch
+2020-10-07 13:10:06,348 INFO [Timer-Driven Process Thread-6] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:06 [Thread id: 45]: 0[FirstControlProxy.put] New epoch entering, whose epoch number i.e. watermark seq num will be: 14
+2020-10-07 13:10:06,348 INFO [Timer-Driven Process Thread-6] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:06 [Thread id: 45]: [FirstControlProxy.put] Prob sending to edge is: 1.0
+2020-10-07 13:10:06,358 INFO [Provenance Repository Rollover Thread-1] o.a.n.p.lucene.SimpleIndexManager Index Writer for provenance_repository/index-1602076205000 has been returned to Index Manager and is no longer in use. Closing Index Writer
+2020-10-07 13:10:06,373 INFO [Provenance Repository Rollover Thread-1] o.a.n.p.PersistentProvenanceRepository Successfully merged 16 journal files (95 records) into single Provenance Log File provenance_repository/0.prov in 4811 milliseconds
+2020-10-07 13:10:06,376 INFO [Provenance Repository Rollover Thread-1] o.a.n.p.PersistentProvenanceRepository Successfully Rolled over Provenance Event file containing 131 records. In the past 5 minutes, 110 events have been written to the Provenance Repository, totaling 82.22 KB
+2020-10-07 13:10:06,591 INFO [Timer-Driven Process Thread-6] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:06 [Thread id: 45]: Putting watermark into first Cp
+2020-10-07 13:10:06,591 INFO [Timer-Driven Process Thread-6] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:06 [Thread id: 45]: 0 [FirstControlProxy.putWaterMark] Watermark seen with seq num: 14
+2020-10-07 13:10:06,596 INFO [Timer-Driven Process Thread-6] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:06 [Thread id: 45]: [MyProcessor.extractRecords] Reading new epoch
+2020-10-07 13:10:06,596 INFO [Timer-Driven Process Thread-6] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:06 [Thread id: 45]: 0[FirstControlProxy.put] New epoch entering, whose epoch number i.e. watermark seq num will be: 15
+2020-10-07 13:10:06,598 INFO [Timer-Driven Process Thread-6] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:06 [Thread id: 45]: [FirstControlProxy.put] Prob sending to edge is: 1.0
+2020-10-07 13:10:06,690 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:06 [Thread id: 53]: [FirstControlProxy.take] Size of recent window processed is 8318520.0
+2020-10-07 13:10:06,700 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:06 [Thread id: 53]: [FinalControlProxy.putWaterMark] Seen watermark in final queue with seq num: 8
+2020-10-07 13:10:06,701 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:06 [Thread id: 53]: [Debug] CpId is: 0
+2020-10-07 13:10:06,704 INFO [Thread-16] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:06 [Thread id: 72]: [CloudUploader.sendToCloud] The size of network queue is 3497554
+2020-10-07 13:10:06,805 INFO [Timer-Driven Process Thread-6] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:06 [Thread id: 45]: Putting watermark into first Cp
+2020-10-07 13:10:06,805 INFO [Timer-Driven Process Thread-6] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:06 [Thread id: 45]: 0 [FirstControlProxy.putWaterMark] Watermark seen with seq num: 15
+2020-10-07 13:10:06,807 INFO [Timer-Driven Process Thread-1] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:06 [Thread id: 28]: [MyProcessor.extractRecords] Reading new epoch
+2020-10-07 13:10:06,807 INFO [Timer-Driven Process Thread-1] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:06 [Thread id: 28]: 0[FirstControlProxy.put] New epoch entering, whose epoch number i.e. watermark seq num will be: 16
+2020-10-07 13:10:06,807 INFO [Timer-Driven Process Thread-1] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:06 [Thread id: 28]: [FirstControlProxy.put] Prob sending to edge is: 1.0
+2020-10-07 13:10:06,974 INFO [Timer-Driven Process Thread-1] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:06 [Thread id: 28]: Putting watermark into first Cp
+2020-10-07 13:10:06,978 INFO [Timer-Driven Process Thread-1] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:06 [Thread id: 28]: 0 [FirstControlProxy.putWaterMark] Watermark seen with seq num: 16
+2020-10-07 13:10:06,985 INFO [Timer-Driven Process Thread-6] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:06 [Thread id: 45]: [MyProcessor.extractRecords] Reading new epoch
+2020-10-07 13:10:06,985 INFO [Timer-Driven Process Thread-6] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:06 [Thread id: 45]: 0[FirstControlProxy.put] New epoch entering, whose epoch number i.e. watermark seq num will be: 17
+2020-10-07 13:10:06,985 INFO [Timer-Driven Process Thread-6] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:06 [Thread id: 45]: [FirstControlProxy.put] Prob sending to edge is: 1.0
+2020-10-07 13:10:07,389 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:07 [Thread id: 53]: [FirstControlProxy.take] Size of recent window processed is 8318520.0
+2020-10-07 13:10:07,393 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:07 [Thread id: 53]: [FinalControlProxy.putWaterMark] Seen watermark in final queue with seq num: 9
+2020-10-07 13:10:07,393 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:07 [Thread id: 53]: [Debug] CpId is: 0
+2020-10-07 13:10:07,395 INFO [Thread-17] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:07 [Thread id: 73]: [CloudUploader.sendToCloud] The size of network queue is 3497554
+2020-10-07 13:10:07,487 INFO [Timer-Driven Process Thread-6] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:07 [Thread id: 45]: Putting watermark into first Cp
+2020-10-07 13:10:07,490 INFO [Timer-Driven Process Thread-6] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:07 [Thread id: 45]: 0 [FirstControlProxy.putWaterMark] Watermark seen with seq num: 17
+2020-10-07 13:10:07,491 INFO [Timer-Driven Process Thread-2] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:07 [Thread id: 38]: [MyProcessor.extractRecords] Reading new epoch
+2020-10-07 13:10:07,491 INFO [Timer-Driven Process Thread-2] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:07 [Thread id: 38]: 0[FirstControlProxy.put] New epoch entering, whose epoch number i.e. watermark seq num will be: 18
+2020-10-07 13:10:07,491 INFO [Timer-Driven Process Thread-2] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:07 [Thread id: 38]: [FirstControlProxy.put] Prob sending to edge is: 1.0
+2020-10-07 13:10:07,655 INFO [Timer-Driven Process Thread-2] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:07 [Thread id: 38]: Putting watermark into first Cp
+2020-10-07 13:10:07,656 INFO [Timer-Driven Process Thread-2] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:07 [Thread id: 38]: 0 [FirstControlProxy.putWaterMark] Watermark seen with seq num: 18
+2020-10-07 13:10:07,661 INFO [Timer-Driven Process Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:07 [Thread id: 46]: [MyProcessor.extractRecords] Reading new epoch
+2020-10-07 13:10:07,661 INFO [Timer-Driven Process Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:07 [Thread id: 46]: 0[FirstControlProxy.put] New epoch entering, whose epoch number i.e. watermark seq num will be: 19
+2020-10-07 13:10:07,661 INFO [Timer-Driven Process Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:07 [Thread id: 46]: [FirstControlProxy.put] Prob sending to edge is: 1.0
+2020-10-07 13:10:07,695 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:07 [Thread id: 53]: [FirstControlProxy.take] Size of recent window processed is 8318520.0
+2020-10-07 13:10:07,700 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:07 [Thread id: 53]: [FinalControlProxy.putWaterMark] Seen watermark in final queue with seq num: 10
+2020-10-07 13:10:07,700 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:07 [Thread id: 53]: [Debug] CpId is: 0
+2020-10-07 13:10:07,704 INFO [Thread-18] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:07 [Thread id: 74]: [CloudUploader.sendToCloud] The size of network queue is 3497554
+2020-10-07 13:10:07,845 INFO [Timer-Driven Process Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:07 [Thread id: 46]: Putting watermark into first Cp
+2020-10-07 13:10:07,845 INFO [Timer-Driven Process Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:07 [Thread id: 46]: 0 [FirstControlProxy.putWaterMark] Watermark seen with seq num: 19
+2020-10-07 13:10:07,847 INFO [Timer-Driven Process Thread-1] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:07 [Thread id: 28]: [MyProcessor.extractRecords] Reading new epoch
+2020-10-07 13:10:07,847 INFO [Timer-Driven Process Thread-1] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:07 [Thread id: 28]: 0[FirstControlProxy.put] New epoch entering, whose epoch number i.e. watermark seq num will be: 20
+2020-10-07 13:10:07,848 INFO [Timer-Driven Process Thread-1] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:07 [Thread id: 28]: [FirstControlProxy.put] Prob sending to edge is: 1.0
+2020-10-07 13:10:08,280 INFO [Timer-Driven Process Thread-1] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:08 [Thread id: 28]: Putting watermark into first Cp
+2020-10-07 13:10:08,284 INFO [Timer-Driven Process Thread-1] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:08 [Thread id: 28]: 0 [FirstControlProxy.putWaterMark] Watermark seen with seq num: 20
+2020-10-07 13:10:08,287 INFO [Timer-Driven Process Thread-4] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:08 [Thread id: 43]: [MyProcessor.extractRecords] Reading new epoch
+2020-10-07 13:10:08,288 INFO [Timer-Driven Process Thread-4] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:08 [Thread id: 43]: 0[FirstControlProxy.put] New epoch entering, whose epoch number i.e. watermark seq num will be: 21
+2020-10-07 13:10:08,288 INFO [Timer-Driven Process Thread-4] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:08 [Thread id: 43]: [FirstControlProxy.put] Prob sending to edge is: 1.0
+2020-10-07 13:10:08,300 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:08 [Thread id: 53]: [FirstControlProxy.take] Size of recent window processed is 8318520.0
+2020-10-07 13:10:08,309 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:08 [Thread id: 53]: [FinalControlProxy.putWaterMark] Seen watermark in final queue with seq num: 11
+2020-10-07 13:10:08,309 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:08 [Thread id: 53]: [Debug] CpId is: 0
+2020-10-07 13:10:08,312 INFO [Thread-19] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:08 [Thread id: 75]: [CloudUploader.sendToCloud] The size of network queue is 3497554
+2020-10-07 13:10:08,484 INFO [Timer-Driven Process Thread-4] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:08 [Thread id: 43]: Putting watermark into first Cp
+2020-10-07 13:10:08,484 INFO [Timer-Driven Process Thread-4] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:08 [Thread id: 43]: 0 [FirstControlProxy.putWaterMark] Watermark seen with seq num: 21
+2020-10-07 13:10:08,486 INFO [Timer-Driven Process Thread-4] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:08 [Thread id: 43]: [MyProcessor.extractRecords] Reading new epoch
+2020-10-07 13:10:08,487 INFO [Timer-Driven Process Thread-4] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:08 [Thread id: 43]: 0[FirstControlProxy.put] New epoch entering, whose epoch number i.e. watermark seq num will be: 22
+2020-10-07 13:10:08,487 INFO [Timer-Driven Process Thread-4] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:08 [Thread id: 43]: [FirstControlProxy.put] Prob sending to edge is: 1.0
+2020-10-07 13:10:08,618 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:08 [Thread id: 53]: [FirstControlProxy.take] Size of recent window processed is 8318520.0
+2020-10-07 13:10:08,623 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:08 [Thread id: 53]: [FinalControlProxy.putWaterMark] Seen watermark in final queue with seq num: 12
+2020-10-07 13:10:08,623 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:08 [Thread id: 53]: [Debug] CpId is: 0
+2020-10-07 13:10:08,625 INFO [Thread-20] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:08 [Thread id: 76]: [CloudUploader.sendToCloud] The size of network queue is 3497554
+2020-10-07 13:10:08,693 INFO [Timer-Driven Process Thread-4] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:08 [Thread id: 43]: Putting watermark into first Cp
+2020-10-07 13:10:08,693 INFO [Timer-Driven Process Thread-4] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:08 [Thread id: 43]: 0 [FirstControlProxy.putWaterMark] Watermark seen with seq num: 22
+2020-10-07 13:10:08,697 INFO [Timer-Driven Process Thread-2] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:08 [Thread id: 38]: [MyProcessor.extractRecords] Reading new epoch
+2020-10-07 13:10:08,698 INFO [Timer-Driven Process Thread-2] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:08 [Thread id: 38]: 0[FirstControlProxy.put] New epoch entering, whose epoch number i.e. watermark seq num will be: 23
+2020-10-07 13:10:08,698 INFO [Timer-Driven Process Thread-2] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:08 [Thread id: 38]: [FirstControlProxy.put] Prob sending to edge is: 1.0
+2020-10-07 13:10:09,181 INFO [Timer-Driven Process Thread-2] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:09 [Thread id: 38]: Putting watermark into first Cp
+2020-10-07 13:10:09,182 INFO [Timer-Driven Process Thread-2] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:09 [Thread id: 38]: 0 [FirstControlProxy.putWaterMark] Watermark seen with seq num: 23
+2020-10-07 13:10:09,186 INFO [Timer-Driven Process Thread-3] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:09 [Thread id: 39]: [MyProcessor.extractRecords] Reading new epoch
+2020-10-07 13:10:09,186 INFO [Timer-Driven Process Thread-3] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:09 [Thread id: 39]: 0[FirstControlProxy.put] New epoch entering, whose epoch number i.e. watermark seq num will be: 24
+2020-10-07 13:10:09,186 INFO [Timer-Driven Process Thread-3] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:09 [Thread id: 39]: [FirstControlProxy.put] Prob sending to edge is: 1.0
+2020-10-07 13:10:09,269 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:09 [Thread id: 53]: [FirstControlProxy.take] Size of recent window processed is 8318520.0
+2020-10-07 13:10:09,273 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:09 [Thread id: 53]: [FinalControlProxy.putWaterMark] Seen watermark in final queue with seq num: 13
+2020-10-07 13:10:09,276 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:09 [Thread id: 53]: [Debug] CpId is: 0
+2020-10-07 13:10:09,280 INFO [Thread-21] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:09 [Thread id: 77]: [CloudUploader.sendToCloud] The size of network queue is 3497554
+2020-10-07 13:10:09,416 INFO [Timer-Driven Process Thread-3] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:09 [Thread id: 39]: Putting watermark into first Cp
+2020-10-07 13:10:09,417 INFO [Timer-Driven Process Thread-3] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:09 [Thread id: 39]: 0 [FirstControlProxy.putWaterMark] Watermark seen with seq num: 24
+2020-10-07 13:10:09,419 INFO [Timer-Driven Process Thread-6] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:09 [Thread id: 45]: [MyProcessor.extractRecords] Reading new epoch
+2020-10-07 13:10:09,421 INFO [Timer-Driven Process Thread-6] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:09 [Thread id: 45]: 0[FirstControlProxy.put] New epoch entering, whose epoch number i.e. watermark seq num will be: 25
+2020-10-07 13:10:09,421 INFO [Timer-Driven Process Thread-6] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:09 [Thread id: 45]: [FirstControlProxy.put] Prob sending to edge is: 1.0
+2020-10-07 13:10:09,870 INFO [Timer-Driven Process Thread-6] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:09 [Thread id: 45]: Putting watermark into first Cp
+2020-10-07 13:10:09,871 INFO [Timer-Driven Process Thread-6] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:09 [Thread id: 45]: 0 [FirstControlProxy.putWaterMark] Watermark seen with seq num: 25
+2020-10-07 13:10:09,876 INFO [Timer-Driven Process Thread-8] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:09 [Thread id: 47]: [MyProcessor.extractRecords] Reading new epoch
+2020-10-07 13:10:09,877 INFO [Timer-Driven Process Thread-8] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:09 [Thread id: 47]: 0[FirstControlProxy.put] New epoch entering, whose epoch number i.e. watermark seq num will be: 26
+2020-10-07 13:10:09,877 INFO [Timer-Driven Process Thread-8] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:09 [Thread id: 47]: [FirstControlProxy.put] Prob sending to edge is: 1.0
+2020-10-07 13:10:09,883 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:09 [Thread id: 53]: [FirstControlProxy.take] Size of recent window processed is 8318520.0
+2020-10-07 13:10:09,887 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:09 [Thread id: 53]: [FinalControlProxy.putWaterMark] Seen watermark in final queue with seq num: 14
+2020-10-07 13:10:09,888 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:09 [Thread id: 53]: [Debug] CpId is: 0
+2020-10-07 13:10:09,890 INFO [Thread-22] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:09 [Thread id: 78]: [CloudUploader.sendToCloud] The size of network queue is 3497554
+2020-10-07 13:10:10,399 INFO [Timer-Driven Process Thread-8] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:10 [Thread id: 47]: Putting watermark into first Cp
+2020-10-07 13:10:10,399 INFO [Timer-Driven Process Thread-8] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:10 [Thread id: 47]: 0 [FirstControlProxy.putWaterMark] Watermark seen with seq num: 26
+2020-10-07 13:10:10,401 INFO [Timer-Driven Process Thread-1] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:10 [Thread id: 28]: [MyProcessor.extractRecords] Reading new epoch
+2020-10-07 13:10:10,402 INFO [Timer-Driven Process Thread-1] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:10 [Thread id: 28]: 0[FirstControlProxy.put] New epoch entering, whose epoch number i.e. watermark seq num will be: 27
+2020-10-07 13:10:10,402 INFO [Timer-Driven Process Thread-1] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:10 [Thread id: 28]: [FirstControlProxy.put] Prob sending to edge is: 1.0
+2020-10-07 13:10:10,513 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:10 [Thread id: 53]: [FirstControlProxy.take] Size of recent window processed is 8318520.0
+2020-10-07 13:10:10,519 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:10 [Thread id: 53]: [FinalControlProxy.putWaterMark] Seen watermark in final queue with seq num: 15
+2020-10-07 13:10:10,519 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:10 [Thread id: 53]: [Debug] CpId is: 0
+2020-10-07 13:10:10,521 INFO [Thread-23] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:10 [Thread id: 79]: [CloudUploader.sendToCloud] The size of network queue is 3497554
+2020-10-07 13:10:10,956 INFO [Timer-Driven Process Thread-1] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:10 [Thread id: 28]: Putting watermark into first Cp
+2020-10-07 13:10:10,956 INFO [Timer-Driven Process Thread-1] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:10 [Thread id: 28]: 0 [FirstControlProxy.putWaterMark] Watermark seen with seq num: 27
+2020-10-07 13:10:10,960 INFO [Timer-Driven Process Thread-4] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:10 [Thread id: 43]: [MyProcessor.extractRecords] Reading new epoch
+2020-10-07 13:10:10,961 INFO [Timer-Driven Process Thread-4] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:10 [Thread id: 43]: 0[FirstControlProxy.put] New epoch entering, whose epoch number i.e. watermark seq num will be: 28
+2020-10-07 13:10:10,961 INFO [Timer-Driven Process Thread-4] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:10 [Thread id: 43]: [FirstControlProxy.put] Prob sending to edge is: 1.0
+2020-10-07 13:10:11,785 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:11 [Thread id: 53]: [FirstControlProxy.take] Size of recent window processed is 8318520.0
+2020-10-07 13:10:11,789 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:11 [Thread id: 53]: [FinalControlProxy.putWaterMark] Seen watermark in final queue with seq num: 16
+2020-10-07 13:10:11,790 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:11 [Thread id: 53]: [Debug] CpId is: 0
+2020-10-07 13:10:11,793 INFO [Thread-24] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:11 [Thread id: 80]: [CloudUploader.sendToCloud] The size of network queue is 3497554
+2020-10-07 13:10:11,864 INFO [Timer-Driven Process Thread-4] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:11 [Thread id: 43]: Putting watermark into first Cp
+2020-10-07 13:10:11,865 INFO [Timer-Driven Process Thread-4] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:11 [Thread id: 43]: 0 [FirstControlProxy.putWaterMark] Watermark seen with seq num: 28
+2020-10-07 13:10:11,868 INFO [Timer-Driven Process Thread-5] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:11 [Thread id: 44]: [MyProcessor.extractRecords] Reading new epoch
+2020-10-07 13:10:11,868 INFO [Timer-Driven Process Thread-5] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:11 [Thread id: 44]: 0[FirstControlProxy.put] New epoch entering, whose epoch number i.e. watermark seq num will be: 29
+2020-10-07 13:10:11,868 INFO [Timer-Driven Process Thread-5] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:11 [Thread id: 44]: [FirstControlProxy.put] Prob sending to edge is: 1.0
+2020-10-07 13:10:12,764 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:12 [Thread id: 53]: [FirstControlProxy.take] Size of recent window processed is 8318520.0
+2020-10-07 13:10:12,769 INFO [Timer-Driven Process Thread-5] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:12 [Thread id: 44]: Putting watermark into first Cp
+2020-10-07 13:10:12,769 INFO [Timer-Driven Process Thread-5] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:12 [Thread id: 44]: 0 [FirstControlProxy.putWaterMark] Watermark seen with seq num: 29
+2020-10-07 13:10:12,770 INFO [Timer-Driven Process Thread-6] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:12 [Thread id: 45]: [MyProcessor.extractRecords] Reading new epoch
+2020-10-07 13:10:12,771 INFO [Timer-Driven Process Thread-6] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:12 [Thread id: 45]: 0[FirstControlProxy.put] New epoch entering, whose epoch number i.e. watermark seq num will be: 30
+2020-10-07 13:10:12,772 INFO [Timer-Driven Process Thread-6] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:12 [Thread id: 45]: [FirstControlProxy.put] Prob sending to edge is: 1.0
+2020-10-07 13:10:12,771 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:12 [Thread id: 53]: [FinalControlProxy.putWaterMark] Seen watermark in final queue with seq num: 17
+2020-10-07 13:10:12,775 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:12 [Thread id: 53]: [Debug] CpId is: 0
+2020-10-07 13:10:12,777 INFO [Thread-25] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:12 [Thread id: 81]: [CloudUploader.sendToCloud] The size of network queue is 3497554
+2020-10-07 13:10:13,968 INFO [Timer-Driven Process Thread-6] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:13 [Thread id: 45]: Putting watermark into first Cp
+2020-10-07 13:10:13,970 INFO [Timer-Driven Process Thread-6] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:13 [Thread id: 45]: 0 [FirstControlProxy.putWaterMark] Watermark seen with seq num: 30
+2020-10-07 13:10:13,974 INFO [Timer-Driven Process Thread-2] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:13 [Thread id: 38]: [MyProcessor.extractRecords] Reading new epoch
+2020-10-07 13:10:13,974 INFO [Timer-Driven Process Thread-2] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:13 [Thread id: 38]: 0[FirstControlProxy.put] New epoch entering, whose epoch number i.e. watermark seq num will be: 31
+2020-10-07 13:10:13,974 INFO [Timer-Driven Process Thread-2] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:13 [Thread id: 38]: [FirstControlProxy.put] Prob sending to edge is: 1.0
+2020-10-07 13:10:14,282 INFO [NiFi Site-to-Site Connection Pool Maintenance] o.apache.nifi.remote.client.PeerSelector org.apache.nifi.remote.client.PeerSelector@77521d0a Successfully refreshed Peer Status; remote instance consists of 1 peers
+2020-10-07 13:10:14,288 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:14 [Thread id: 53]: [FirstControlProxy.take] Size of recent window processed is 8318520.0
+2020-10-07 13:10:14,617 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:14 [Thread id: 53]: [FinalControlProxy.putWaterMark] Seen watermark in final queue with seq num: 18
+2020-10-07 13:10:14,617 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:14 [Thread id: 53]: [Debug] CpId is: 0
+2020-10-07 13:10:14,621 INFO [Thread-26] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:14 [Thread id: 82]: [CloudUploader.sendToCloud] The size of network queue is 3497554
+2020-10-07 13:10:15,483 INFO [Timer-Driven Process Thread-2] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:15 [Thread id: 38]: Putting watermark into first Cp
+2020-10-07 13:10:15,483 INFO [Timer-Driven Process Thread-2] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:15 [Thread id: 38]: 0 [FirstControlProxy.putWaterMark] Watermark seen with seq num: 31
+2020-10-07 13:10:15,485 INFO [Timer-Driven Process Thread-3] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:15 [Thread id: 39]: [MyProcessor.extractRecords] Reading new epoch
+2020-10-07 13:10:15,485 INFO [Timer-Driven Process Thread-3] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:15 [Thread id: 39]: 0[FirstControlProxy.put] New epoch entering, whose epoch number i.e. watermark seq num will be: 32
+2020-10-07 13:10:15,485 INFO [Timer-Driven Process Thread-3] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:15 [Thread id: 39]: [FirstControlProxy.put] Prob sending to edge is: 1.0
+2020-10-07 13:10:16,721 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:16 [Thread id: 53]: [FirstControlProxy.take] Size of recent window processed is 8318520.0
+2020-10-07 13:10:16,727 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:16 [Thread id: 53]: [FinalControlProxy.putWaterMark] Seen watermark in final queue with seq num: 19
+2020-10-07 13:10:16,727 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:16 [Thread id: 53]: [Debug] CpId is: 0
+2020-10-07 13:10:16,730 INFO [Thread-27] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:16 [Thread id: 84]: [CloudUploader.sendToCloud] The size of network queue is 3497554
+2020-10-07 13:10:18,349 INFO [Timer-Driven Process Thread-10] o.a.nifi.remote.StandardRemoteGroupPort RemoteGroupPort[name=From MiNiFi62,targets=http://172.31.17.121:8080/nifi] Successfully sent [StandardFlowFileRecord[uuid=bd4369a0-8e92-4b4b-8f64-3e7a00c2e725,claim=StandardContentClaim [resourceClaim=StandardResourceClaim[id=1602076195429-12, container=default, section=12], offset=6995076, length=3497554],offset=0,name=991571275710,size=3497554]] (3.34 MB) to nifi://172.31.17.121:1026 in 20490 milliseconds at a rate of 166.69 KB/sec
+2020-10-07 13:10:19,277 INFO [Timer-Driven Process Thread-3] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:19 [Thread id: 39]: Putting watermark into first Cp
+2020-10-07 13:10:19,277 INFO [Timer-Driven Process Thread-3] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:19 [Thread id: 39]: 0 [FirstControlProxy.putWaterMark] Watermark seen with seq num: 32
+2020-10-07 13:10:19,281 INFO [Timer-Driven Process Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:19 [Thread id: 46]: [MyProcessor.extractRecords] Reading new epoch
+2020-10-07 13:10:19,284 INFO [Timer-Driven Process Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:19 [Thread id: 46]: 0[FirstControlProxy.put] New epoch entering, whose epoch number i.e. watermark seq num will be: 33
+2020-10-07 13:10:19,284 INFO [Timer-Driven Process Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:19 [Thread id: 46]: [FirstControlProxy.put] Prob sending to edge is: 1.0
+2020-10-07 13:10:20,918 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:20 [Thread id: 53]: [FirstControlProxy.take] Size of recent window processed is 8318520.0
+2020-10-07 13:10:21,792 INFO [Timer-Driven Process Thread-9] o.a.nifi.remote.StandardRemoteGroupPort RemoteGroupPort[name=From MiNiFi62,targets=http://172.31.17.121:8080/nifi] Successfully sent [StandardFlowFileRecord[uuid=24b0584c-0542-4792-9f33-9bd21cd524b2,claim=StandardContentClaim [resourceClaim=StandardResourceClaim[id=1602076204486-15, container=default, section=15], offset=0, length=3497554],offset=0,name=998575073418,size=3497554]] (3.34 MB) to nifi://172.31.17.121:1026 in 15504 milliseconds at a rate of 220.29 KB/sec
+2020-10-07 13:10:21,798 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:21 [Thread id: 53]: [FinalControlProxy.putWaterMark] Seen watermark in final queue with seq num: 20
+2020-10-07 13:10:21,798 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:21 [Thread id: 53]: [Debug] CpId is: 0
+2020-10-07 13:10:21,814 INFO [Thread-28] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:21 [Thread id: 85]: [CloudUploader.sendToCloud] The size of network queue is 3497554
+2020-10-07 13:10:23,458 INFO [Timer-Driven Process Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:23 [Thread id: 46]: Putting watermark into first Cp
+2020-10-07 13:10:23,458 INFO [Timer-Driven Process Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:23 [Thread id: 46]: 0 [FirstControlProxy.putWaterMark] Watermark seen with seq num: 33
+2020-10-07 13:10:23,461 INFO [Timer-Driven Process Thread-5] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:23 [Thread id: 44]: [MyProcessor.extractRecords] Reading new epoch
+2020-10-07 13:10:23,498 INFO [Timer-Driven Process Thread-5] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:23 [Thread id: 44]: 0[FirstControlProxy.put] New epoch entering, whose epoch number i.e. watermark seq num will be: 34
+2020-10-07 13:10:23,498 INFO [Timer-Driven Process Thread-5] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:23 [Thread id: 44]: [FirstControlProxy.put] Prob sending to edge is: 1.0
+2020-10-07 13:10:24,849 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:24 [Thread id: 53]: [FirstControlProxy.take] Size of recent window processed is 8318520.0
+2020-10-07 13:10:24,853 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:24 [Thread id: 53]: [FinalControlProxy.putWaterMark] Seen watermark in final queue with seq num: 21
+2020-10-07 13:10:24,854 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:24 [Thread id: 53]: [Debug] CpId is: 0
+2020-10-07 13:10:24,864 INFO [Thread-29] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:24 [Thread id: 86]: [CloudUploader.sendToCloud] The size of network queue is 3497554
+2020-10-07 13:10:26,421 INFO [Timer-Driven Process Thread-5] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:26 [Thread id: 44]: Putting watermark into first Cp
+2020-10-07 13:10:26,421 INFO [Timer-Driven Process Thread-5] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:26 [Thread id: 44]: 0 [FirstControlProxy.putWaterMark] Watermark seen with seq num: 34
+2020-10-07 13:10:26,422 INFO [Timer-Driven Process Thread-3] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:26 [Thread id: 39]: [MyProcessor.extractRecords] Reading new epoch
+2020-10-07 13:10:27,143 INFO [Timer-Driven Process Thread-3] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:27 [Thread id: 39]: 0[FirstControlProxy.put] New epoch entering, whose epoch number i.e. watermark seq num will be: 35
+2020-10-07 13:10:27,144 INFO [Timer-Driven Process Thread-3] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:27 [Thread id: 39]: [FirstControlProxy.put] Prob sending to edge is: 1.0
+2020-10-07 13:10:28,200 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:28 [Thread id: 53]: [FirstControlProxy.take] Size of recent window processed is 8318520.0
+2020-10-07 13:10:28,202 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:28 [Thread id: 53]: [FinalControlProxy.putWaterMark] Seen watermark in final queue with seq num: 22
+2020-10-07 13:10:28,215 INFO [Thread-30] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:28 [Thread id: 87]: [CloudUploader.sendToCloud] The size of network queue is 3497554
+2020-10-07 13:10:28,952 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:28 [Thread id: 53]: [Debug] CpId is: 0
+2020-10-07 13:10:47,770 INFO [Timer-Driven Process Thread-3] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:47 [Thread id: 39]: Putting watermark into first Cp
+2020-10-07 13:10:47,770 INFO [Timer-Driven Process Thread-3] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:47 [Thread id: 39]: 0 [FirstControlProxy.putWaterMark] Watermark seen with seq num: 35
+2020-10-07 13:10:47,809 INFO [Timer-Driven Process Thread-4] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:47 [Thread id: 43]: [MyProcessor.extractRecords] Reading new epoch
+2020-10-07 13:10:47,809 INFO [Timer-Driven Process Thread-4] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:47 [Thread id: 43]: 0[FirstControlProxy.put] New epoch entering, whose epoch number i.e. watermark seq num will be: 36
+2020-10-07 13:10:47,810 INFO [Timer-Driven Process Thread-4] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:47 [Thread id: 43]: [FirstControlProxy.put] Prob sending to edge is: 1.0
+2020-10-07 13:10:51,985 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:51 [Thread id: 53]: [FirstControlProxy.take] Size of recent window processed is 8318520.0
+2020-10-07 13:10:58,327 ERROR [Timer-Driven Process Thread-6] o.a.nifi.remote.StandardRemoteGroupPort RemoteGroupPort[name=From MiNiFi62,targets=http://172.31.17.121:8080/nifi] failed to communicate with remote NiFi instance due to org.apache.nifi.processor.exception.ProcessException: IOException thrown from RemoteGroupPort[name=From MiNiFi62,targets=http://172.31.17.121:8080/nifi]: java.io.IOException: Failed to send data to Peer[url=nifi://172.31.17.121:1026] due to java.net.SocketTimeoutException: Timed out writing to socket
+2020-10-07 13:10:58,327 INFO [Thread-31] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:58 [Thread id: 90]: [CloudUploader.sendToCloud] The size of network queue is 3497554
+2020-10-07 13:10:58,328 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:58 [Thread id: 53]: [FinalControlProxy.putWaterMark] Seen watermark in final queue with seq num: 23
+2020-10-07 13:10:58,328 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:10:58 [Thread id: 53]: [Debug] CpId is: 0
+2020-10-07 13:11:03,112 INFO [Write-Ahead Local State Provider Maintenance] org.wali.MinimalLockingWriteAheadLog org.wali.MinimalLockingWriteAheadLog@5f8890c2 checkpointed with 0 Records and 0 Swap Files in 696 milliseconds (Stop-the-world time = 209 milliseconds, Clear Edit Logs time = 407 millis), max Transaction ID -1
+2020-10-07 13:11:06,672 INFO [pool-49-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2020-10-07 13:11:07,002 INFO [pool-49-thread-1] o.a.n.wali.SequentialAccessWriteAheadLog Checkpointed Write-Ahead Log with 40 Records and 0 Swap Files in 329 milliseconds (Stop-the-world time = 80 milliseconds), max Transaction ID 208
+2020-10-07 13:11:07,002 INFO [pool-49-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Successfully checkpointed FlowFile Repository with 40 records in 329 milliseconds
+2020-10-07 13:11:16,892 INFO [FileSystemRepository Workers Thread-3] o.a.n.c.repository.FileSystemRepository Successfully destroyed 13 Resource Claims for Container default in 83 millis
+2020-10-07 13:11:16,933 INFO [Provenance Maintenance Thread-1] o.a.n.p.PersistentProvenanceRepository Created new Provenance Event Writers for events starting with ID 216
+2020-10-07 13:11:16,935 INFO [NiFi Site-to-Site Connection Pool Maintenance] o.apache.nifi.remote.client.PeerSelector org.apache.nifi.remote.client.PeerSelector@77521d0a Successfully refreshed Peer Status; remote instance consists of 1 peers
+2020-10-07 13:11:20,781 INFO [Timer-Driven Process Thread-6] o.apache.nifi.remote.client.PeerSelector New Weighted Distribution of Nodes:
+PeerStatus[hostname=172.31.17.121,port=1026,secure=false,flowFileCount=0] will receive 100.0% of data
+2020-10-07 13:11:24,586 ERROR [Timer-Driven Process Thread-1] o.a.nifi.remote.StandardRemoteGroupPort RemoteGroupPort[name=From MiNiFi62,targets=http://172.31.17.121:8080/nifi] failed to communicate with remote NiFi instance due to java.io.IOException: Failed to confirm transaction with Peer[url=nifi://172.31.17.121:1026] due to java.io.IOException: Connection reset by peer
+2020-10-07 13:11:35,753 INFO [Timer-Driven Process Thread-4] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:11:35 [Thread id: 43]: Putting watermark into first Cp
+2020-10-07 13:11:35,754 INFO [Timer-Driven Process Thread-4] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:11:35 [Thread id: 43]: 0 [FirstControlProxy.putWaterMark] Watermark seen with seq num: 36
+2020-10-07 13:11:38,865 INFO [Timer-Driven Process Thread-4] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:11:38 [Thread id: 43]: [MyProcessor.extractRecords] Reading new epoch
+2020-10-07 13:11:38,866 INFO [Timer-Driven Process Thread-4] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:11:38 [Thread id: 43]: 0[FirstControlProxy.put] New epoch entering, whose epoch number i.e. watermark seq num will be: 37
+2020-10-07 13:11:38,948 INFO [Timer-Driven Process Thread-4] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:11:38 [Thread id: 43]: [FirstControlProxy.put] Prob sending to edge is: 1.0
+2020-10-07 13:11:45,897 INFO [Provenance Repository Rollover Thread-1] o.a.n.p.lucene.SimpleIndexManager Index Writer for provenance_repository/index-1602076205000 has been returned to Index Manager and is no longer in use. Closing Index Writer
+2020-10-07 13:11:45,899 INFO [Provenance Repository Rollover Thread-1] o.a.n.p.PersistentProvenanceRepository Successfully merged 16 journal files (121 records) into single Provenance Log File provenance_repository/95.prov in 35708 milliseconds
+2020-10-07 13:11:45,938 INFO [Provenance Repository Rollover Thread-1] o.a.n.p.PersistentProvenanceRepository Successfully Rolled over Provenance Event file containing 151 records. In the past 5 minutes, 229 events have been written to the Provenance Repository, totaling 167.98 KB
+2020-10-07 13:11:52,848 ERROR [Timer-Driven Process Thread-6] o.a.nifi.remote.StandardRemoteGroupPort RemoteGroupPort[name=From MiNiFi62,targets=http://172.31.17.121:8080/nifi] failed to communicate with remote NiFi instance due to org.apache.nifi.processor.exception.ProcessException: IOException thrown from RemoteGroupPort[name=From MiNiFi62,targets=http://172.31.17.121:8080/nifi]: java.io.IOException: Failed to send data to Peer[url=nifi://172.31.17.121:1026] due to java.net.SocketTimeoutException: Timed out writing to socket
+2020-10-07 13:12:02,869 ERROR [Timer-Driven Process Thread-1] o.a.nifi.remote.StandardRemoteGroupPort RemoteGroupPort[name=From MiNiFi62,targets=http://172.31.17.121:8080/nifi] failed to communicate with remote NiFi instance due to org.apache.nifi.processor.exception.ProcessException: IOException thrown from RemoteGroupPort[name=From MiNiFi62,targets=http://172.31.17.121:8080/nifi]: java.io.IOException: Failed to send data to Peer[url=nifi://172.31.17.121:1026] due to java.net.SocketTimeoutException: Timed out writing to socket
+2020-10-07 13:12:25,929 INFO [NiFi Site-to-Site Connection Pool Maintenance] o.apache.nifi.remote.client.PeerSelector org.apache.nifi.remote.client.PeerSelector@77521d0a Successfully refreshed Peer Status; remote instance consists of 1 peers
+2020-10-07 13:12:25,967 INFO [Provenance Maintenance Thread-3] o.a.n.p.PersistentProvenanceRepository Created new Provenance Event Writers for events starting with ID 237
+2020-10-07 13:12:35,330 INFO [Timer-Driven Process Thread-1] o.apache.nifi.remote.client.PeerSelector New Weighted Distribution of Nodes:
+PeerStatus[hostname=172.31.17.121,port=1026,secure=false,flowFileCount=0] will receive 100.0% of data
+2020-10-07 13:12:38,976 INFO [Provenance Repository Rollover Thread-2] o.a.n.p.lucene.SimpleIndexManager Index Writer for provenance_repository/index-1602076205000 has been returned to Index Manager and is no longer in use. Closing Index Writer
+2020-10-07 13:12:38,977 INFO [Provenance Repository Rollover Thread-2] o.a.n.p.PersistentProvenanceRepository Successfully merged 16 journal files (21 records) into single Provenance Log File provenance_repository/216.prov in 13129 milliseconds
+2020-10-07 13:12:39,016 INFO [Provenance Repository Rollover Thread-2] o.a.n.p.PersistentProvenanceRepository Successfully Rolled over Provenance Event file containing 34 records. In the past 5 minutes, 241 events have been written to the Provenance Repository, totaling 177.86 KB
+2020-10-07 13:12:42,333 INFO [Thread-7] com.jarvis.processors.edge.MyProcessor MyProcessor[id=d55bf1e4-8854-36ed-0000-000000000000] [ATUL INFO] 13:12:42 [Thread id: 53]: [FirstControlProxy.take] Size of recent window processed is 8318520.0
+2020-10-07 13:12:54,204 ERROR [Thread-7] org.apache.nifi.minifi.MiNiFi An Unknown Error Occurred in Thread Thread[Thread-7,5,main]: java.lang.OutOfMemoryError: Java heap space
+2020-10-07 13:12:54,205 ERROR [Thread-7] org.apache.nifi.minifi.MiNiFi 
+java.lang.OutOfMemoryError: Java heap space
+	at java.util.Arrays.copyOf(Arrays.java:3236)
+	at java.io.ByteArrayOutputStream.toByteArray(ByteArrayOutputStream.java:191)
+	at com.jarvis.processors.edge.controlproxy.FinalControlProxyNoAdapt.getByteArrayOutputStreamContent(FinalControlProxyNoAdapt.java:120)
+	at com.jarvis.processors.edge.controlproxy.FinalControlProxyNoAdapt.putWaterMark(FinalControlProxyNoAdapt.java:90)
+	at com.jarvis.processors.edge.operators.CustomMapOperator$1.onComplete(CustomMapOperator.java:72)
+	at io.reactivex.internal.observers.BasicFuseableObserver.onComplete(BasicFuseableObserver.java:119)
+	at io.reactivex.subjects.PublishSubject$PublishDisposable.onComplete(PublishSubject.java:322)
+	at io.reactivex.subjects.PublishSubject.onComplete(PublishSubject.java:254)
+	at com.jarvis.processors.edge.operators.CustomOperator.run(CustomOperator.java:153)
+	at java.lang.Thread.run(Thread.java:748)
+2020-10-07 13:12:54,205 ERROR [Timer-Driven Process Thread-6] o.a.nifi.remote.StandardRemoteGroupPort RemoteGroupPort[name=From MiNiFi62,targets=http://172.31.17.121:8080/nifi] failed to communicate with remote NiFi instance due to org.apache.nifi.processor.exception.ProcessException: IOException thrown from RemoteGroupPort[name=From MiNiFi62,targets=http://172.31.17.121:8080/nifi]: java.io.IOException: Failed to send data to Peer[url=nifi://172.31.17.121:1026] due to java.net.SocketTimeoutException: Timed out writing to socket
+2020-10-07 13:13:17,780 ERROR [Timer-Driven Process Thread-1] o.a.nifi.remote.StandardRemoteGroupPort RemoteGroupPort[name=From MiNiFi62,targets=http://172.31.17.121:8080/nifi] failed to communicate with remote NiFi instance due to org.apache.nifi.processor.exception.ProcessException: IOException thrown from RemoteGroupPort[name=From MiNiFi62,targets=http://172.31.17.121:8080/nifi]: java.io.IOException: Failed to send data to Peer[url=nifi://172.31.17.121:1026] due to java.net.SocketTimeoutException: Timed out writing to socket
+2020-10-07 13:13:17,819 INFO [pool-49-thread-1] o.a.n.c.r.WriteAheadFlowFileRepository Initiating checkpoint of FlowFile Repository
+2020-10-07 13:13:28,624 ERROR [Timer-Driven Process Thread-6] o.a.nifi.remote.StandardRemoteGroupPort RemoteGroupPort[name=From MiNiFi62,targets=http://172.31.17.121:8080/nifi] failed to communicate with http://172.31.17.121:8080/nifi due to java.io.IOException: Connection reset by peer
+2020-10-07 13:13:31,654 WARN [NiFi Site-to-Site Connection Pool Maintenance] o.apache.nifi.remote.client.PeerSelector Could not communicate with 172.31.17.121:1026 to determine which nodes exist in the remote NiFi cluster, due to java.net.ConnectException: Connection refused
+2020-10-07 13:13:31,693 ERROR [Timer-Driven Process Thread-1] o.a.nifi.remote.StandardRemoteGroupPort RemoteGroupPort[name=From MiNiFi62,targets=http://172.31.17.121:8080/nifi] failed to communicate with http://172.31.17.121:8080/nifi due to java.net.ConnectException: Connection refused
